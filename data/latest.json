@@ -1,0 +1,2540 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-24T12:36:26+09:00",
+  "last_success_at": "2026-08-24T12:36:26+09:00",
+  "sources": {
+    "maff_hpai": {
+      "status": "ok",
+      "url": "https://www.maff.go.jp/aqs/topix/im/hpai.html",
+      "attempted_at": "2026-08-24T12:36:26+09:00",
+      "fetched_at": "2026-08-24T12:36:26+09:00",
+      "content_sha256": "3f490d890a9ccc8a93a88723779fd4dea74ffb8b6a835e081c3b57a3c2ac0af5",
+      "record_count": 31,
+      "error": null
+    }
+  },
+  "suspensions": [
+    {
+      "country_en": "Argentina",
+      "country_jp": "アルゼンチン",
+      "commodity": "poultry_meat",
+      "whole_country": true,
+      "latest_suspension": "2025年07月17日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of República Argentina"
+      ],
+      "active_regions_jp": [
+        "アルゼンチン全土"
+      ]
+    },
+    {
+      "country_en": "Australia",
+      "country_jp": "オーストラリア",
+      "commodity": "live_poultry",
+      "whole_country": true,
+      "latest_suspension": "2024年05月22日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of Australia"
+      ],
+      "active_regions_jp": [
+        "オーストラリア全土"
+      ]
+    },
+    {
+      "country_en": "Australia",
+      "country_jp": "オーストラリア",
+      "commodity": "poultry_meat",
+      "whole_country": true,
+      "latest_suspension": "2024年05月22日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of Australia"
+      ],
+      "active_regions_jp": [
+        "オーストラリア全土"
+      ]
+    },
+    {
+      "country_en": "Austria",
+      "country_jp": "オーストリア",
+      "commodity": "poultry_meat",
+      "whole_country": true,
+      "latest_suspension": "2021年11月27日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of Austria"
+      ],
+      "active_regions_jp": [
+        "オーストリア全土"
+      ]
+    },
+    {
+      "country_en": "Brazil",
+      "country_jp": "ブラジル",
+      "commodity": "live_poultry",
+      "whole_country": false,
+      "latest_suspension": "2026年07月18日",
+      "states": [],
+      "active_regions_en": [
+        "Pará",
+        "Rio Grande do Sul"
+      ],
+      "active_regions_jp": [
+        "パラー州",
+        "リオグランデ・ド・スル州"
+      ]
+    },
+    {
+      "country_en": "Brazil",
+      "country_jp": "ブラジル",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2026年07月18日",
+      "states": [
+        {
+          "key": "ceara",
+          "name_en": "Ceará",
+          "name_jp": "セアラ州（23）",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "goias",
+          "name_en": "Goiás",
+          "name_jp": "ゴイアス州（52）",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "mato grosso",
+          "name_en": "Mato Grosso",
+          "name_jp": "マット・グロッソ州（51）",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "minas gerais",
+          "name_en": "Minas Gerais",
+          "name_jp": "ミナスジェライス州（31）",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "para",
+          "name_en": "Pará",
+          "name_jp": "パラー州（15）",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Anajás"
+          ],
+          "active_regions_jp": [
+            "アナジャス市"
+          ]
+        },
+        {
+          "key": "rio grande do sul",
+          "name_en": "Rio Grande do Sul",
+          "name_jp": "リオグランデ・ド・スル州（43）",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Coqueiros do sul"
+          ],
+          "active_regions_jp": [
+            "コケイロス・ド・スル市"
+          ]
+        },
+        {
+          "key": "santa catarina",
+          "name_en": "Santa Catarina",
+          "name_jp": "サンタカタリーナ州（42）",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "sao paulo",
+          "name_en": "São Paulo",
+          "name_jp": "サンパウロ州（35）",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        }
+      ],
+      "active_regions_en": [],
+      "active_regions_jp": []
+    },
+    {
+      "country_en": "Bulgaria",
+      "country_jp": "ブルガリア",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2026年02月12日",
+      "states": [],
+      "active_regions_en": [
+        "Burgas",
+        "Dobrich",
+        "Gabrovo",
+        "Haskovo",
+        "Kardzhali",
+        "Pazardzhik",
+        "Pleven",
+        "Plovdiv",
+        "Sliven",
+        "Sofijska",
+        "Stara Zagora",
+        "Varna",
+        "Veliko Tarnovo",
+        "Yambol"
+      ],
+      "active_regions_jp": [
+        "ガブロヴォ州",
+        "クルジャリ州",
+        "スタラ・ザゴラ州",
+        "スリヴェン州",
+        "ソフィア州",
+        "ドブリチ州",
+        "ハスコヴォ州",
+        "パザルジク州",
+        "ブルガス州",
+        "プレヴェン州",
+        "プロヴディフ州",
+        "ヤンボル州",
+        "ヴァルナ州",
+        "ヴェリコ・タルノヴォ州"
+      ]
+    },
+    {
+      "country_en": "Canada",
+      "country_jp": "カナダ",
+      "commodity": "live_poultry",
+      "whole_country": false,
+      "latest_suspension": "2025年05月19日",
+      "states": [],
+      "active_regions_en": [
+        "Alberta",
+        "British Columbia",
+        "Manitoba",
+        "New Brunswick",
+        "Newfoundland and Labrador",
+        "Nova Scotia",
+        "Prince Edward Island",
+        "Saskatchewan"
+      ],
+      "active_regions_jp": [
+        "アルバータ州",
+        "サスカチュワン",
+        "ニューファンドランド・ラブラドール州",
+        "ニューブランズウィック州",
+        "ノヴァスコシア州",
+        "ブリティッシュコロンビア州",
+        "プリンス・エドワード・アイランド州",
+        "マニトバ州"
+      ]
+    },
+    {
+      "country_en": "Canada",
+      "country_jp": "カナダ",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2025年05月19日",
+      "states": [],
+      "active_regions_en": [
+        "Alberta",
+        "British Columbia",
+        "New Brunswick",
+        "Prince Edward Island"
+      ],
+      "active_regions_jp": [
+        "アルバータ州",
+        "サスカチュワン州Saskatchewan",
+        "ニューファンドランド・ラブラドール州Newfoundland and Labrador",
+        "ニューブランズウィック州",
+        "ノヴァスコシア州Nova Scotia",
+        "ブリティッシュコロンビア州",
+        "プリンス・エドワード・アイランド州",
+        "マニトバ州Manitoba"
+      ]
+    },
+    {
+      "country_en": "Chile",
+      "country_jp": "チリ",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2026年3月11日",
+      "states": [],
+      "active_regions_en": [
+        "Bío-Bío",
+        "La Araucanía",
+        "Libertador General Bernardo O'Higgins",
+        "Los Lagos",
+        "Magallanes y de la Antártica Chilena",
+        "Maule",
+        "Región Metropolitana de Santiago",
+        "Valparaíso",
+        "Ñuble"
+      ],
+      "active_regions_jp": [
+        "アラウカニア州",
+        "サンティアゴ首都州",
+        "ニュブレ州",
+        "バルパライソ州",
+        "ビオビオ州",
+        "マウレ州",
+        "マガジャネス・イ・デ・ラ・アンタルティカ・チレナ州",
+        "リベルタドール・ベルナルド・オイギンス州",
+        "ロス・ラゴス州"
+      ]
+    },
+    {
+      "country_en": "Costa Rica",
+      "country_jp": "コスタリカ",
+      "commodity": "poultry_meat",
+      "whole_country": true,
+      "latest_suspension": "2023年02月04日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of República de Costa Rica"
+      ],
+      "active_regions_jp": []
+    },
+    {
+      "country_en": "Denmark",
+      "country_jp": "デンマーク",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2025年10月15日",
+      "states": [],
+      "active_regions_en": [
+        "Veterinary Inspection Division(VID)",
+        "Veterinary Inspection Division(VID) East",
+        "Veterinary Inspection Division(VID) North"
+      ],
+      "active_regions_jp": [
+        "獣医学的検査区域（VID）のうちEast の地域",
+        "獣医学的検査区域（VID）のうちNorth の地域",
+        "獣医学的検査区域（VID）のうちSouth の地域"
+      ]
+    },
+    {
+      "country_en": "France",
+      "country_jp": "フランス",
+      "commodity": "live_poultry",
+      "whole_country": false,
+      "latest_suspension": "2023年06月05日",
+      "states": [],
+      "active_regions_en": [
+        "Aisne(2)",
+        "Ardennes(8)",
+        "Bas-Rhin(67)",
+        "Calvados(14)",
+        "Corrèze(19)",
+        "Creuse(23)",
+        "Côte-d'Or(21)",
+        "Essonne(91)",
+        "Eure-et-Loir(28)",
+        "Eure（27）",
+        "Gers(32)",
+        "Gironde(33)",
+        "Haut-Rhin(68)",
+        "Haute-Corse(2B)",
+        "Haute-Garonne(31)",
+        "Haute-Loire(43)",
+        "Haute-Savoie(74)",
+        "Haute-Vienne(87)",
+        "Hautes-Pyrénées(65)",
+        "Indre(36)",
+        "Landes(40)",
+        "Loiret(45)",
+        "Lot(46)",
+        "Lot-et-Garonne(47)",
+        "Manche(50)",
+        "Meuse(55)",
+        "Nord(59)",
+        "Pas-de-Calais(62)",
+        "Rhône(69)",
+        "Saône-et-Loire(71)",
+        "Seine-Maritime(76)",
+        "Somme(80)",
+        "Tarn(81)",
+        "Tarn-et-Garonne(82)",
+        "Yvelines(78)"
+      ],
+      "active_regions_jp": [
+        "アルデンヌ県",
+        "アンドル県",
+        "イヴリーヌ県",
+        "ウール・エ・ロワール県",
+        "ウール県",
+        "エソンヌ県",
+        "エーヌ県",
+        "オルヌ県Orne(61)",
+        "オワーズ県Oise(60)",
+        "オート・ガロンヌ県",
+        "オート・コルス県",
+        "オート・サヴォア県",
+        "オート・ピレネー県",
+        "オート・ロワール県",
+        "オート・ヴィエンヌ県",
+        "オー・ラン県",
+        "カルバドス県",
+        "クルーズ県",
+        "コレーズ県",
+        "コート・ドール県",
+        "シャラント・マリティーム県Charente-Maritime(17)",
+        "ジェール県",
+        "ジロンド県",
+        "セーヌ・マリティーム県",
+        "ソンム県",
+        "ソーヌ・エ・ロワール県",
+        "タルヌ・エ・ガロンヌ県",
+        "タルヌ県",
+        "ノール県",
+        "バ・ラン県",
+        "パ・ド・カレー県",
+        "ピレネー・アトランティック県Pyrénées-Atlantiques(64)",
+        "マンシュ県",
+        "ムーズ県",
+        "ランド県",
+        "ロット・エ・ガロンヌ県",
+        "ロット県",
+        "ロワレ県",
+        "ローヌ県"
+      ]
+    },
+    {
+      "country_en": "France",
+      "country_jp": "フランス",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2023年06月05日",
+      "states": [],
+      "active_regions_en": [
+        "Aisne(2)",
+        "Ardennes(8)",
+        "Bas-Rhin(67)",
+        "Calvados(14)",
+        "Charente-Maritime(17)",
+        "Corrèze(19)",
+        "Creuse(23)",
+        "Côte-d'Or(21)",
+        "Essonne(91)",
+        "Eure（27）",
+        "Gers(32)",
+        "Gironde(33)",
+        "Haut-Rhin(68)",
+        "Haute-Corse(2B)",
+        "Haute-Garonne(31)",
+        "Haute-Loire(43)",
+        "Haute-Savoie(74)",
+        "Haute-Vienne(87)",
+        "Hautes-Pyrénées(65)",
+        "Indre(36)",
+        "Landes(40)",
+        "Loiret(45)",
+        "Lot(46)",
+        "Lot-et-Garonne(47)",
+        "Manche(50)",
+        "Meuse(55)",
+        "Nord(59)",
+        "Oise(60)",
+        "Orne(61)",
+        "Pas-de-Calais(62)",
+        "Pyrénées-Atlantiques(64)",
+        "Rhône(69)",
+        "Saône-et-Loire(71)",
+        "Seine-Maritime(76)",
+        "Somme(80)",
+        "Tarn(81)",
+        "Tarn-et-Garonne(82)",
+        "Yvelines(78)"
+      ],
+      "active_regions_jp": [
+        "アルデンヌ県",
+        "アンドル県",
+        "イヴリーヌ県",
+        "ウール・エ・ロワール県Eure-et-Loir(28)",
+        "ウール県",
+        "エソンヌ県",
+        "エーヌ県",
+        "オルヌ県",
+        "オワーズ県",
+        "オート・ガロンヌ県",
+        "オート・コルス県",
+        "オート・サヴォア県",
+        "オート・ピレネー県",
+        "オート・ロワール県",
+        "オート・ヴィエンヌ県",
+        "オー・ラン県",
+        "カルバドス県",
+        "クルーズ県",
+        "コレーズ県",
+        "コート・ドール県",
+        "シャラント・マリティーム県",
+        "ジェール県",
+        "ジロンド県",
+        "セーヌ・マリティーム県",
+        "ソンム県",
+        "ソーヌ・エ・ロワール県",
+        "タルヌ・エ・ガロンヌ県",
+        "タルヌ県",
+        "ノール県",
+        "バ・ラン県",
+        "パ・ド・カレー県",
+        "ピレネー・アトランティック県",
+        "マンシュ県",
+        "ムーズ県",
+        "ランド県",
+        "ロット・エ・ガロンヌ県",
+        "ロット県",
+        "ロワレ県",
+        "ローヌ県"
+      ]
+    },
+    {
+      "country_en": "Germany",
+      "country_jp": "ドイツ",
+      "commodity": "live_poultry",
+      "whole_country": true,
+      "latest_suspension": "2021年10月25日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of Germany"
+      ],
+      "active_regions_jp": [
+        "ドイツ全土"
+      ]
+    },
+    {
+      "country_en": "Germany",
+      "country_jp": "ドイツ",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2026年02月26日",
+      "states": [],
+      "active_regions_en": [
+        "Baden-wuerttemberg",
+        "Bayern",
+        "Hessen",
+        "Mecklenburg-Vorpommern",
+        "Nordrhein-Westfalen",
+        "Rheinland-Pfalz",
+        "Saarland",
+        "Sachsen",
+        "Schleswig-Holstein"
+      ],
+      "active_regions_jp": [
+        "ザクセン・アンハルト州Sachsen-Anhalt",
+        "ザクセン州",
+        "ザールラント州",
+        "シュレースヴィヒ・ホルシュタイン州",
+        "テューリンゲン州Thüringen",
+        "ニーダーザクセン州Niedersachsen",
+        "ノルトライン・ヴェストファーレン州",
+        "バイエルン州",
+        "バーデン・ビュルテンベルク州",
+        "ブランデンブルク州Brandenburg",
+        "ヘッセン州",
+        "メクレンブルク・フォアポンメルン州",
+        "ラインラント・プファルツ州"
+      ]
+    },
+    {
+      "country_en": "Hungary",
+      "country_jp": "ハンガリー",
+      "commodity": "live_poultry",
+      "whole_country": false,
+      "latest_suspension": "2024年01月18日",
+      "states": [],
+      "active_regions_en": [
+        "Somogy"
+      ],
+      "active_regions_jp": [
+        "ショモジ県"
+      ]
+    },
+    {
+      "country_en": "Lithuania",
+      "country_jp": "リトアニア",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2026年06月10日",
+      "states": [],
+      "active_regions_en": [
+        "Kauno",
+        "Vilniaus"
+      ],
+      "active_regions_jp": [
+        "カウナス州",
+        "ヴィリニュス州"
+      ]
+    },
+    {
+      "country_en": "Netherlands",
+      "country_jp": "オランダ",
+      "commodity": "live_poultry",
+      "whole_country": false,
+      "latest_suspension": "2025年11月25日",
+      "states": [],
+      "active_regions_en": [
+        "Animal Health Municipalities: Num.1",
+        "Animal Health Municipalities: Num.10",
+        "Animal Health Municipalities: Num.11",
+        "Animal Health Municipalities: Num.12",
+        "Animal Health Municipalities: Num.13",
+        "Animal Health Municipalities: Num.14",
+        "Animal Health Municipalities: Num.15",
+        "Animal Health Municipalities: Num.16",
+        "Animal Health Municipalities: Num.17",
+        "Animal Health Municipalities: Num.18",
+        "Animal Health Municipalities: Num.19",
+        "Animal Health Municipalities: Num.2",
+        "Animal Health Municipalities: Num.20",
+        "Animal Health Municipalities: Num.3",
+        "Animal Health Municipalities: Num.4",
+        "Animal Health Municipalities: Num.5",
+        "Animal Health Municipalities: Num.6",
+        "Animal Health Municipalities: Num.7",
+        "Animal Health Municipalities: Num.8",
+        "Animal Health Municipalities: Num.9"
+      ],
+      "active_regions_jp": [
+        "家畜衛生単位第10区域",
+        "家畜衛生単位第11区域",
+        "家畜衛生単位第12区域",
+        "家畜衛生単位第13区域",
+        "家畜衛生単位第14区域",
+        "家畜衛生単位第15区域",
+        "家畜衛生単位第16区域",
+        "家畜衛生単位第17区域",
+        "家畜衛生単位第18区域",
+        "家畜衛生単位第19区域",
+        "家畜衛生単位第1区域",
+        "家畜衛生単位第20区域",
+        "家畜衛生単位第2区域",
+        "家畜衛生単位第3区域",
+        "家畜衛生単位第4区域",
+        "家畜衛生単位第5区域",
+        "家畜衛生単位第6区域",
+        "家畜衛生単位第7区域",
+        "家畜衛生単位第8区域",
+        "家畜衛生単位第9区域"
+      ]
+    },
+    {
+      "country_en": "Netherlands",
+      "country_jp": "オランダ",
+      "commodity": "poultry_meat",
+      "whole_country": true,
+      "latest_suspension": "2025年11月25日",
+      "states": [],
+      "active_regions_en": [
+        "Animal Health Municipalities: Num.1",
+        "Animal Health Municipalities: Num.10",
+        "Animal Health Municipalities: Num.11",
+        "Animal Health Municipalities: Num.12",
+        "Animal Health Municipalities: Num.13",
+        "Animal Health Municipalities: Num.14",
+        "Animal Health Municipalities: Num.15",
+        "Animal Health Municipalities: Num.16",
+        "Animal Health Municipalities: Num.17",
+        "Animal Health Municipalities: Num.18",
+        "Animal Health Municipalities: Num.19",
+        "Animal Health Municipalities: Num.2",
+        "Animal Health Municipalities: Num.20",
+        "Animal Health Municipalities: Num.3",
+        "Animal Health Municipalities: Num.4",
+        "Animal Health Municipalities: Num.5",
+        "Animal Health Municipalities: Num.6",
+        "Animal Health Municipalities: Num.7",
+        "Animal Health Municipalities: Num.8",
+        "Whole area of Netherlands"
+      ],
+      "active_regions_jp": [
+        "オランダ全土",
+        "家畜衛生単位第10区域",
+        "家畜衛生単位第11区域",
+        "家畜衛生単位第12区域",
+        "家畜衛生単位第13区域",
+        "家畜衛生単位第14区域",
+        "家畜衛生単位第15区域",
+        "家畜衛生単位第16区域",
+        "家畜衛生単位第17区域",
+        "家畜衛生単位第18区域",
+        "家畜衛生単位第19区域",
+        "家畜衛生単位第1区域",
+        "家畜衛生単位第20区域",
+        "家畜衛生単位第2区域",
+        "家畜衛生単位第3区域",
+        "家畜衛生単位第4区域",
+        "家畜衛生単位第5区域",
+        "家畜衛生単位第6区域",
+        "家畜衛生単位第7区域",
+        "家畜衛生単位第8区域",
+        "家畜衛生単位第9区域Animal Health Municipalities: Num.9"
+      ]
+    },
+    {
+      "country_en": "Peru",
+      "country_jp": "ペルー",
+      "commodity": "poultry_meat",
+      "whole_country": true,
+      "latest_suspension": "2022年12月02日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of Peru"
+      ],
+      "active_regions_jp": [
+        "ペルー全土"
+      ]
+    },
+    {
+      "country_en": "Philippines",
+      "country_jp": "フィリピン",
+      "commodity": "poultry_meat",
+      "whole_country": true,
+      "latest_suspension": "2022年02月22日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of Philippine"
+      ],
+      "active_regions_jp": [
+        "フィリピン全土"
+      ]
+    },
+    {
+      "country_en": "Poland",
+      "country_jp": "ポーランド",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2026年01月21日",
+      "states": [],
+      "active_regions_en": [
+        "Lodz",
+        "Opolskie",
+        "Podlaskie",
+        "Warmińsko-mazurskie",
+        "Wielkopolskie",
+        "Województwo lubuskie",
+        "dolnośląskie",
+        "kujawsko-pomorskie",
+        "lubelskie",
+        "mazowieckie",
+        "małopolskie",
+        "podkarpackie",
+        "pomorskie",
+        "zachodniopomorskie",
+        "Świętokrzyskie",
+        "śląskie"
+      ],
+      "active_regions_jp": [
+        "ウッチ県",
+        "オポーレ県",
+        "クヤヴィ・ポモージェ県",
+        "シフィエンティクシシュ県",
+        "シロンスク県",
+        "ドルヌィ・シロンスク県",
+        "ポトカルパチェ県",
+        "ポドラシェ県",
+        "ポモージェ県",
+        "マウォポルスカ県",
+        "マゾフシェ県",
+        "ルブリン県",
+        "ルヴシュ県",
+        "ヴァルミア・マズールィ県",
+        "ヴィエルコポルスカ県",
+        "西ポモージェ県"
+      ]
+    },
+    {
+      "country_en": "Portugal",
+      "country_jp": "ポルトガル",
+      "commodity": "poultry_meat",
+      "whole_country": true,
+      "latest_suspension": "2024年08月16日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of Portugal"
+      ],
+      "active_regions_jp": [
+        "ポルトガル全土"
+      ]
+    },
+    {
+      "country_en": "Sweden",
+      "country_jp": "スウェーデン",
+      "commodity": "live_poultry",
+      "whole_country": true,
+      "latest_suspension": "2025年10月22日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of Sweden"
+      ],
+      "active_regions_jp": [
+        "スウェーデン全土"
+      ]
+    },
+    {
+      "country_en": "Sweden",
+      "country_jp": "スウェーデン",
+      "commodity": "poultry_meat",
+      "whole_country": true,
+      "latest_suspension": "2025年10月22日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of Sweden"
+      ],
+      "active_regions_jp": [
+        "スウェーデン全土"
+      ]
+    },
+    {
+      "country_en": "Ukraine",
+      "country_jp": "ウクライナ",
+      "commodity": "poultry_meat",
+      "whole_country": true,
+      "latest_suspension": "2021年10月18日",
+      "states": [],
+      "active_regions_en": [
+        "Whole area of Ukraine"
+      ],
+      "active_regions_jp": [
+        "ウクライナ全土"
+      ]
+    },
+    {
+      "country_en": "United Kingdom",
+      "country_jp": "英国",
+      "commodity": "live_poultry",
+      "whole_country": false,
+      "latest_suspension": "2026年02月16日",
+      "states": [],
+      "active_regions_en": [
+        "Cambridgeshire",
+        "Cheshire",
+        "Clwyd",
+        "Cornwall",
+        "Devon",
+        "Dyfed",
+        "East Riding of Yorkshire",
+        "East Sussex",
+        "Edinburgh",
+        "Essex",
+        "Ettrick",
+        "Gloucestershire",
+        "Gwynedd",
+        "Hampshire",
+        "Kent",
+        "Lanarkshire",
+        "Lancashire",
+        "Lauderdale",
+        "Lincolnshire",
+        "Merseyside",
+        "Midlothian",
+        "Norfolk",
+        "North Yorkshire",
+        "Northamptonshire",
+        "Northumberland",
+        "Nottinghamshire",
+        "Oxfordshire",
+        "Powys",
+        "Roxburgh",
+        "Shropshire",
+        "Somerset",
+        "South Yorkshire",
+        "Staffordshire",
+        "Suffolk",
+        "Tweeddale",
+        "Tyrone",
+        "West Lothian",
+        "West Sussex"
+      ],
+      "active_regions_jp": [
+        "イースト・サセックス州",
+        "イースト・ライディング・オブ・ヨークシャー州",
+        "ウェスト・サセックス州",
+        "ウェスト・ロージアン州",
+        "エセックス州",
+        "エディンバラ市",
+        "エトリック州",
+        "オックスフォードシャー州",
+        "クルイド州",
+        "グウィネズ州",
+        "グロスターシャー州",
+        "ケント州",
+        "ケンブリッジシャー州",
+        "コーンウォール州",
+        "サウス・ヨークシャー州",
+        "サフォーク州",
+        "サマセット州",
+        "シュロップシャー州",
+        "スタッフォードシャー州",
+        "チェシャー州",
+        "ティロン州",
+        "ディベド州",
+        "デボン州",
+        "トウィーデール州",
+        "ノッティンガムシャー州",
+        "ノーサンバーランド州",
+        "ノーサンプトンシャー州",
+        "ノースヨークシャー州",
+        "ノーフォーク州",
+        "ハンプシャー州",
+        "ポーイス州",
+        "マージサイド州",
+        "ミッドロージアン州",
+        "ラナークシャー州",
+        "ランカシャー州",
+        "リンカンシャー州",
+        "ロクスバラ州",
+        "ローダーデール州"
+      ]
+    },
+    {
+      "country_en": "United Kingdom",
+      "country_jp": "英国",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2026年02月16日",
+      "states": [],
+      "active_regions_en": [
+        "Cheshire",
+        "Clwyd",
+        "Cornwall",
+        "Devon",
+        "Dyfed",
+        "East Riding of Yorkshire",
+        "East Sussex",
+        "Edinburgh",
+        "Essex",
+        "Ettrick",
+        "Gwynedd",
+        "Hampshire",
+        "Kent",
+        "Lanarkshire",
+        "Lancashire",
+        "Lauderdale",
+        "Lincolnshire",
+        "Merseyside",
+        "Midlothian",
+        "Norfolk",
+        "North Yorkshire",
+        "Northamptonshire",
+        "Northumberland",
+        "Powys",
+        "Roxburgh",
+        "Shropshire",
+        "Somerset",
+        "South Yorkshire",
+        "Suffolk",
+        "Tweeddale",
+        "Tyrone",
+        "West Lothian",
+        "West Sussex"
+      ],
+      "active_regions_jp": [
+        "イースト・サセックス州",
+        "イースト・ライディング・オブ・ヨークシャー州",
+        "ウェスト・サセックス州",
+        "ウェスト・ロージアン州",
+        "エセックス州",
+        "エディンバラ市",
+        "エトリック州",
+        "オックスフォードシャー州Oxfordshire",
+        "クルイド州",
+        "グウィネズ州",
+        "グロスターシャー州Gloucestershire",
+        "ケント州",
+        "ケンブリッジシャー州Cambridgeshire",
+        "コーンウォール州",
+        "サウス・ヨークシャー州",
+        "サフォーク州",
+        "サマセット州",
+        "シュロップシャー州",
+        "スタッフォードシャー州Staffordshire",
+        "チェシャー州",
+        "ティロン州",
+        "ディベド州",
+        "デボン州",
+        "トウィーデール州",
+        "ノッティンガムシャー州Nottinghamshire",
+        "ノーサンバーランド州",
+        "ノーサンプトンシャー州",
+        "ノースヨークシャー州",
+        "ノーフォーク州",
+        "ハンプシャー州",
+        "ポーイス州",
+        "マージサイド州",
+        "ミッドロージアン州",
+        "ラナークシャー州",
+        "ランカシャー州",
+        "リンカンシャー州",
+        "ロクスバラ州",
+        "ローダーデール州"
+      ]
+    },
+    {
+      "country_en": "United States",
+      "country_jp": "米国",
+      "commodity": "live_poultry",
+      "whole_country": false,
+      "latest_suspension": "2026年06月12日",
+      "states": [
+        {
+          "key": "alabama",
+          "name_en": "State of Alabama",
+          "name_jp": "アラバマ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "alaska",
+          "name_en": "State of Alaska",
+          "name_jp": "アラスカ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "arizona",
+          "name_en": "State of Arizona",
+          "name_jp": "アリゾナ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "arkansas",
+          "name_en": "State of Arkansas",
+          "name_jp": "アーカンソー州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Arkansas County",
+            "Clay County",
+            "Cleveland County",
+            "Cross County",
+            "Drew County",
+            "Faulkner County",
+            "Mississippi County",
+            "Prairie County",
+            "White County"
+          ],
+          "active_regions_jp": [
+            "アーカンソー郡",
+            "クリーブランド郡",
+            "クレイ郡",
+            "クロス郡",
+            "ドリュー郡",
+            "フォークナー郡",
+            "プレーリー郡",
+            "ホワイト郡",
+            "ミシシッピ郡"
+          ]
+        },
+        {
+          "key": "california",
+          "name_en": "State of California",
+          "name_jp": "カリフォルニア州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "colorad",
+          "name_en": "State of Colorad",
+          "name_jp": "コロラド州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Boulder County",
+            "Larimer County",
+            "Logan County",
+            "Morgan County",
+            "Weld County"
+          ],
+          "active_regions_jp": [
+            "ウェルド郡",
+            "ボルダー郡",
+            "モーガン郡",
+            "ラリマー郡",
+            "ローガン郡"
+          ]
+        },
+        {
+          "key": "connecticut",
+          "name_en": "State of Connecticut",
+          "name_jp": "コネチカット州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "delaware",
+          "name_en": "State of Delaware",
+          "name_jp": "デラウェア州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "florida",
+          "name_en": "State of Florida",
+          "name_jp": "フロリダ州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Broward County",
+            "Hillsborough County",
+            "Orange County",
+            "Palm Beach County"
+          ],
+          "active_regions_jp": [
+            "オレンジ郡",
+            "パームビーチ郡",
+            "ヒルズボロ郡",
+            "ブロワード郡"
+          ]
+        },
+        {
+          "key": "georgia",
+          "name_en": "State of Georgia",
+          "name_jp": "ジョージア州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "hawaii",
+          "name_en": "State of Hawaii",
+          "name_jp": "ハワイ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "idaho",
+          "name_en": "State of Idaho",
+          "name_jp": "アイダホ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Canyon County"
+          ],
+          "active_regions_jp": [
+            "キャニオン郡"
+          ]
+        },
+        {
+          "key": "illinois",
+          "name_en": "State of Illinois",
+          "name_jp": "イリノイ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Bond county",
+            "Cook County",
+            "Crawford County",
+            "Douglas County",
+            "Edgar County",
+            "Henry County",
+            "Jefferson County",
+            "Jersey County",
+            "Knox County",
+            "Lawrence County",
+            "Livingston County",
+            "Madison County",
+            "Perry County",
+            "St. Clair County",
+            "Vermilion County",
+            "Will County"
+          ],
+          "active_regions_jp": [
+            "ウィル郡",
+            "エドガー郡",
+            "クック郡",
+            "クロウフォード郡",
+            "ジェファーソン郡",
+            "ジャージー郡",
+            "セントクレア郡",
+            "ダグラス郡",
+            "ノックス郡",
+            "ヘンリー郡",
+            "ペリー郡",
+            "ボンド郡",
+            "マディソン郡",
+            "リビングストン郡",
+            "ローレンス郡",
+            "ヴァーミリオン郡"
+          ]
+        },
+        {
+          "key": "indiana",
+          "name_en": "State of Indiana",
+          "name_jp": "インディアナ州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "iowa",
+          "name_en": "State of Iowa",
+          "name_jp": "アイオワ州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "kansas",
+          "name_en": "State of Kansas",
+          "name_jp": "カンザス州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Anderson County",
+            "Barton County",
+            "Butler County",
+            "Coffey County",
+            "Dickinson County",
+            "Doniphan County",
+            "Douglas County",
+            "Elk County",
+            "Ellsworth County",
+            "Franklin County",
+            "Grant County",
+            "Greenwood County",
+            "Harvey County",
+            "Haskell County",
+            "Jackson County",
+            "Jewell County",
+            "Johnson County",
+            "McPherson County",
+            "Mitchell County",
+            "Nemaha County",
+            "Neosho County",
+            "Phillips County",
+            "Pottawatomie County",
+            "Pratt County",
+            "Reno County",
+            "Republic County",
+            "Rice County",
+            "Rooks County",
+            "Russell County",
+            "Sedgwick County",
+            "Shawnee County",
+            "Smith County",
+            "Wabaunsee County"
+          ],
+          "active_regions_jp": [
+            "アンダーソン郡",
+            "エルク郡",
+            "エルズワース郡",
+            "グラント郡",
+            "グリーンウッド郡",
+            "コフィ―郡",
+            "ショーニー郡",
+            "ジャクソン郡",
+            "ジュエル郡",
+            "ジョンソン郡",
+            "スミス郡",
+            "セジウィック郡",
+            "ダグラス郡",
+            "ディキンソン郡",
+            "ド二ファン郡",
+            "ネオショ郡",
+            "ネマハ郡",
+            "ハスケル郡",
+            "ハーベイ郡",
+            "バトラー郡",
+            "バートン郡",
+            "フィリップス郡",
+            "フランクリン郡",
+            "プラット郡",
+            "ポタワトミー郡",
+            "マクファーソン郡",
+            "ミッチェル郡",
+            "ライス郡",
+            "ラッセル郡",
+            "リノ郡",
+            "リパブリック郡",
+            "ルークス郡",
+            "ワボンシー郡"
+          ]
+        },
+        {
+          "key": "kentucky",
+          "name_en": "Commonwealth of Kentucky",
+          "name_jp": "ケンタッキー州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Clinton County",
+            "Jessamine County",
+            "Lawrence County"
+          ],
+          "active_regions_jp": [
+            "クリントン郡",
+            "ジェサミン郡",
+            "ローレンス郡"
+          ]
+        },
+        {
+          "key": "louisiana",
+          "name_en": "State of Louisiana",
+          "name_jp": "ルイジアナ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "maine",
+          "name_en": "State of Maine",
+          "name_jp": "メイン州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Penobscot County",
+            "York County"
+          ],
+          "active_regions_jp": [
+            "ペノブスコット郡",
+            "ヨーク郡"
+          ]
+        },
+        {
+          "key": "maryland",
+          "name_en": "State of Maryland",
+          "name_jp": "メリーランド州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "massachusetts",
+          "name_en": "Commonwealth of Massachusetts",
+          "name_jp": "マサチューセッツ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Dukes County"
+          ],
+          "active_regions_jp": [
+            "デュークス郡"
+          ]
+        },
+        {
+          "key": "michigan",
+          "name_en": "State of Michigan",
+          "name_jp": "ミシガン州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Allegan County",
+            "Ottawa County"
+          ],
+          "active_regions_jp": [
+            "アレガン郡",
+            "オタワ郡"
+          ]
+        },
+        {
+          "key": "minnesota",
+          "name_en": "State of Minnesota",
+          "name_jp": "ミネソタ州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Kandiyohi County",
+            "Lac qui Parle County",
+            "Meeker County",
+            "Morrison County",
+            "Mower County",
+            "Stearns County",
+            "Zone within 10 km of outbreak place"
+          ],
+          "active_regions_jp": [
+            "カンディヨーハイ郡",
+            "スターンズ郡",
+            "ミーカー郡 ※2021/11/29/付で既に輸入停止済みのLPAI発生場所から半径10km 以内の区域を除く",
+            "モリソン郡",
+            "モーア郡",
+            "ラクキパール郡",
+            "発生場所から"
+          ]
+        },
+        {
+          "key": "mississippi",
+          "name_en": "State of Mississippi",
+          "name_jp": "ミシシッピ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "missouri",
+          "name_en": "State of Missouri",
+          "name_jp": "ミズーリ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "montana",
+          "name_en": "State of Montana",
+          "name_jp": "モンタナ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Beaverhead County",
+            "Broadwater County",
+            "Carbon County",
+            "Cascade County",
+            "Fergus County",
+            "Gallatin County",
+            "Liberty County",
+            "Park County",
+            "Valley County",
+            "Yellowstone County"
+          ],
+          "active_regions_jp": [
+            "イエローストーン郡",
+            "カスケード郡",
+            "カーボン郡",
+            "ギャラティン郡",
+            "バレー郡",
+            "パーク郡",
+            "ビーバーヘッド郡",
+            "ファーガス郡",
+            "ブロードウォーター郡",
+            "リバティ郡"
+          ]
+        },
+        {
+          "key": "nebraska",
+          "name_en": "State of Nebraska",
+          "name_jp": "ネブラスカ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Butler County",
+            "Douglas County",
+            "Howard County",
+            "Keith County",
+            "Red Willow County",
+            "Scotts Bluff County",
+            "Valley County",
+            "Washington County"
+          ],
+          "active_regions_jp": [
+            "キース郡",
+            "スコッツブラフ郡",
+            "ダグラス郡",
+            "ハワード郡",
+            "バトラー郡",
+            "バレー郡",
+            "レッドウィロー郡",
+            "ワシントン郡"
+          ]
+        },
+        {
+          "key": "nevada",
+          "name_en": "State of Nevada",
+          "name_jp": "ネバダ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Carson City",
+            "Churchill County",
+            "Clark County",
+            "Douglas County",
+            "Nye County"
+          ],
+          "active_regions_jp": [
+            "カーソンシティ郡",
+            "クラーク郡",
+            "ダグラス郡",
+            "チャーチル郡",
+            "ナイ郡"
+          ]
+        },
+        {
+          "key": "new hampshire",
+          "name_en": "State of New Hampshire",
+          "name_jp": "ニューハンプシャー州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "new jersey",
+          "name_en": "State of New Jersey",
+          "name_jp": "ニュージャージー州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Union County"
+          ],
+          "active_regions_jp": [
+            "ユニオン郡"
+          ]
+        },
+        {
+          "key": "new mexico",
+          "name_en": "State of New Mexico",
+          "name_jp": "ニューメキシコ州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Bernalillo County",
+            "Valencia County"
+          ],
+          "active_regions_jp": [
+            "バレンシア郡",
+            "ベルナリオ郡"
+          ]
+        },
+        {
+          "key": "new york",
+          "name_en": "State of New York",
+          "name_jp": "ニューヨーク州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Zone within 10 km of outbreak place"
+          ],
+          "active_regions_jp": [
+            "発生場所から"
+          ]
+        },
+        {
+          "key": "north carolina",
+          "name_en": "State of North Carolina",
+          "name_jp": "ノースカロライナ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "north dakota",
+          "name_en": "State of North Dakota",
+          "name_jp": "ノースダコタ州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "McHenry County"
+          ],
+          "active_regions_jp": [
+            "マクヘンリー郡"
+          ]
+        },
+        {
+          "key": "ohio",
+          "name_en": "State of Ohio",
+          "name_jp": "オハイオ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Auglaize County",
+            "Clermont County",
+            "Morrow County",
+            "Portage County"
+          ],
+          "active_regions_jp": [
+            "オーグレイズ郡",
+            "クラーモント郡",
+            "ポーテージ郡",
+            "モロー郡"
+          ]
+        },
+        {
+          "key": "oklahoma",
+          "name_en": "State of Oklahoma",
+          "name_jp": "オクラホマ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Comanche County",
+            "Grady County",
+            "Kingfisher County",
+            "Mcclain County",
+            "Wagoner County"
+          ],
+          "active_regions_jp": [
+            "キングフィッシャー郡",
+            "グレイディ郡",
+            "コマンチ郡",
+            "マクレーン郡",
+            "ワゴナー郡"
+          ]
+        },
+        {
+          "key": "oregon",
+          "name_en": "State of Oregon",
+          "name_jp": "オレゴン州",
+          "status": "pending",
+          "active_regions_en": [
+            "Clackamas County",
+            "Crook",
+            "Jackson",
+            "Malheur",
+            "Union County"
+          ],
+          "active_regions_jp": [
+            "クラカマス郡",
+            "クルック郡",
+            "ジャクソン郡",
+            "マルヒュア郡",
+            "ユニオン郡"
+          ]
+        },
+        {
+          "key": "pennsylvania",
+          "name_en": "Commonwealth of Pennsylvania",
+          "name_jp": "ペンシルバニア州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Venango",
+            "Zone within 10 km of outbreak place"
+          ],
+          "active_regions_jp": [
+            "ベナンゴ郡",
+            "発生場所から"
+          ]
+        },
+        {
+          "key": "rhode island",
+          "name_en": "State of Rhode Island",
+          "name_jp": "ロードアイランド州",
+          "status": "pending",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "south carolina",
+          "name_en": "State of South Carolina",
+          "name_jp": "サウスカロライナ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "south dakota",
+          "name_en": "State of South Dakota",
+          "name_jp": "サウスダコタ州",
+          "status": "pending",
+          "active_regions_en": [
+            "Beadle County",
+            "Charles Mix County",
+            "Edmunds County",
+            "Faulk County",
+            "Hamlin County",
+            "Hutchinson County",
+            "Jerauld County",
+            "Kingsbury County",
+            "Marshall County",
+            "McPherson County",
+            "Meade County",
+            "Spink County",
+            "Turner County"
+          ],
+          "active_regions_jp": [
+            "エドマンズ郡",
+            "キングスベリー郡",
+            "ジェロールド郡",
+            "スピンク郡",
+            "ターナー郡",
+            "チャールズミックス郡",
+            "ハッチンソン郡",
+            "ハムリン郡",
+            "ビードル郡",
+            "フォーク郡",
+            "マクファーソン郡",
+            "マーシャル郡",
+            "ミード郡"
+          ]
+        },
+        {
+          "key": "tennessee",
+          "name_en": "State of Tennessee",
+          "name_jp": "テネシー州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Hawkins County",
+            "Obion County"
+          ],
+          "active_regions_jp": [
+            "オビオン郡",
+            "ホーキンス郡"
+          ]
+        },
+        {
+          "key": "texas",
+          "name_en": "State of Texas",
+          "name_jp": "テキサス州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "utah",
+          "name_en": "State of Utah",
+          "name_jp": "ユタ州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "vermont",
+          "name_en": "State of Vermont",
+          "name_jp": "バーモント州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "virginia",
+          "name_en": "Commonwealth of Virginia",
+          "name_jp": "バージニア州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "washington",
+          "name_en": "State of Washington",
+          "name_jp": "ワシントン州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Clark County",
+            "Grant County",
+            "Grays Harbor County",
+            "Island County",
+            "Jefferson County",
+            "Lewis County",
+            "Pierce County",
+            "San Juan County",
+            "Skagit County",
+            "Snohomish County",
+            "Whatcom County",
+            "Yakima County"
+          ],
+          "active_regions_jp": [
+            "アイランド郡",
+            "クラーク郡",
+            "グラント郡",
+            "グレイズハーバー郡",
+            "サンフアン郡",
+            "ジェファーソン郡",
+            "スカジット郡",
+            "スノホミッシュ郡",
+            "ピアース郡",
+            "ヤキマ郡",
+            "ルイス郡",
+            "ワットコム郡"
+          ]
+        },
+        {
+          "key": "west virginia",
+          "name_en": "State of West Virginia",
+          "name_jp": "ウェストバージニア州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Greenbrier County",
+            "Jackson County",
+            "Kanawha County",
+            "Monongalia County"
+          ],
+          "active_regions_jp": [
+            "カナー郡",
+            "グリーンブライア郡",
+            "ジャクソン郡",
+            "モノンガリア郡"
+          ]
+        },
+        {
+          "key": "wisconsin",
+          "name_en": "State of Wisconsin",
+          "name_jp": "ウィスコンシン州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "wyoming",
+          "name_en": "State of Wyoming",
+          "name_jp": "ワイオミング州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        }
+      ],
+      "active_regions_en": [],
+      "active_regions_jp": []
+    },
+    {
+      "country_en": "United States",
+      "country_jp": "米国",
+      "commodity": "poultry_meat",
+      "whole_country": false,
+      "latest_suspension": "2026年06月12日",
+      "states": [
+        {
+          "key": "alabama",
+          "name_en": "State of Alabama",
+          "name_jp": "アラバマ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "alaska",
+          "name_en": "State of Alaska",
+          "name_jp": "アラスカ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "arizona",
+          "name_en": "State of Arizona",
+          "name_jp": "アリゾナ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "arkansas",
+          "name_en": "State of Arkansas",
+          "name_jp": "アーカンソー州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Arkansas County",
+            "Clay County",
+            "Cleveland County",
+            "Cross County",
+            "Drew County",
+            "Faulkner County",
+            "Mississippi County",
+            "Prairie County",
+            "White County"
+          ],
+          "active_regions_jp": [
+            "アーカンソー郡",
+            "クリーブランド郡",
+            "クレイ郡",
+            "クロス郡",
+            "ドリュー郡",
+            "フォークナー郡",
+            "プレーリー郡",
+            "ホワイト郡",
+            "ミシシッピ郡"
+          ]
+        },
+        {
+          "key": "california",
+          "name_en": "State of California",
+          "name_jp": "カリフォルニア州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "colorad",
+          "name_en": "State of Colorad",
+          "name_jp": "コロラド州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Boulder County",
+            "Larimer County",
+            "Logan County",
+            "Morgan County",
+            "Weld County"
+          ],
+          "active_regions_jp": [
+            "ウェルド郡",
+            "ボルダー郡",
+            "モーガン郡",
+            "ラリマー郡",
+            "ローガン郡"
+          ]
+        },
+        {
+          "key": "connecticut",
+          "name_en": "State of Connecticut",
+          "name_jp": "コネチカット州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "delaware",
+          "name_en": "State of Delaware",
+          "name_jp": "デラウェア州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "florida",
+          "name_en": "State of Florida",
+          "name_jp": "フロリダ州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Broward County",
+            "Hillsborough County",
+            "Orange County",
+            "Palm Beach County"
+          ],
+          "active_regions_jp": [
+            "オレンジ郡",
+            "パームビーチ郡",
+            "ヒルズボロ郡",
+            "ブロワード郡"
+          ]
+        },
+        {
+          "key": "georgia",
+          "name_en": "State of Georgia",
+          "name_jp": "ジョージア州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "hawaii",
+          "name_en": "State of Hawaii",
+          "name_jp": "ハワイ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "idaho",
+          "name_en": "State of Idaho",
+          "name_jp": "アイダホ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Canyon County"
+          ],
+          "active_regions_jp": [
+            "キャニオン郡"
+          ]
+        },
+        {
+          "key": "illinois",
+          "name_en": "State of Illinois",
+          "name_jp": "イリノイ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Bond County",
+            "Cook County",
+            "Crawford County",
+            "Douglas County",
+            "Edgar County",
+            "Henry County",
+            "Jefferson County",
+            "Jersey County",
+            "Knox County",
+            "Lawrence County",
+            "Livingston County",
+            "Madison County",
+            "Perry County",
+            "St. Clair County",
+            "Vermilion County",
+            "Will County"
+          ],
+          "active_regions_jp": [
+            "ウィル郡",
+            "エドガー郡",
+            "クック郡",
+            "クロウフォード郡",
+            "ジェファーソン郡",
+            "ジャージー郡",
+            "セントクレア郡",
+            "ダグラス郡",
+            "ノックス郡",
+            "ヘンリー郡",
+            "ペリー郡",
+            "ボンド郡",
+            "マディソン郡",
+            "リビングストン郡",
+            "ローレンス郡",
+            "ヴァーミリオン郡"
+          ]
+        },
+        {
+          "key": "indiana",
+          "name_en": "State of Indiana",
+          "name_jp": "インディアナ州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "iowa",
+          "name_en": "State of Iowa",
+          "name_jp": "アイオワ州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "kansas",
+          "name_en": "State of Kansas",
+          "name_jp": "カンザス州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Anderson County",
+            "Barton County",
+            "Butler County",
+            "Coffey County",
+            "Dickinson County",
+            "Doniphan County",
+            "Douglas County",
+            "Elk County",
+            "Ellsworth County",
+            "Franklin County",
+            "Grant County",
+            "Greenwood County",
+            "Harvey County",
+            "Haskell County",
+            "Jackson County",
+            "Jewell County",
+            "Johnson County",
+            "McPherson County",
+            "Mitchell County",
+            "Nemaha County",
+            "Neosho County",
+            "Phillips County",
+            "Pottawatomie County",
+            "Pratt County",
+            "Reno County",
+            "Republic County",
+            "Rice County",
+            "Rooks County",
+            "Russell County",
+            "Sedgwick County",
+            "Shawnee County",
+            "Smith County",
+            "Wabaunsee County"
+          ],
+          "active_regions_jp": [
+            "アンダーソン郡",
+            "エルク郡",
+            "エルズワース郡",
+            "グラント郡",
+            "グリーンウッド郡",
+            "コフィ―郡",
+            "ショーニー郡",
+            "ジャクソン郡",
+            "ジュエル郡",
+            "ジョンソン郡",
+            "スミス郡",
+            "セジウィック郡",
+            "ダグラス郡",
+            "ディキンソン郡",
+            "ド二ファン郡",
+            "ネオショ郡",
+            "ネマハ郡",
+            "ハスケル郡",
+            "ハーベイ郡",
+            "バトラー郡",
+            "バートン郡",
+            "フィリップス郡",
+            "フランクリン郡",
+            "プラット郡",
+            "ポタワトミー郡",
+            "マクファーソン郡",
+            "ミッチェル郡",
+            "ライス郡",
+            "ラッセル郡",
+            "リノ郡",
+            "リパブリック郡",
+            "ルークス郡",
+            "ワポンシー郡"
+          ]
+        },
+        {
+          "key": "kentucky",
+          "name_en": "Commonwealth of Kentucky",
+          "name_jp": "ケンタッキー州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Clinton County",
+            "Jessamine County",
+            "Lawrence County"
+          ],
+          "active_regions_jp": [
+            "クリントン郡",
+            "ジェサミン郡",
+            "ローレンス郡"
+          ]
+        },
+        {
+          "key": "louisiana",
+          "name_en": "State of Louisiana",
+          "name_jp": "ルイジアナ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "maine",
+          "name_en": "State of Maine",
+          "name_jp": "メイン州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Penobscot County",
+            "York County"
+          ],
+          "active_regions_jp": [
+            "ペノブスコット郡",
+            "ヨーク郡"
+          ]
+        },
+        {
+          "key": "maryland",
+          "name_en": "State of Maryland",
+          "name_jp": "メリーランド州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "massachusetts",
+          "name_en": "Commonwealth of Massachusetts",
+          "name_jp": "マサチューセッツ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Dukes County"
+          ],
+          "active_regions_jp": [
+            "デュークス郡"
+          ]
+        },
+        {
+          "key": "michigan",
+          "name_en": "State of Michigan",
+          "name_jp": "ミシガン州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Allegan County",
+            "Ottawa County"
+          ],
+          "active_regions_jp": [
+            "アレガン郡",
+            "オタワ郡"
+          ]
+        },
+        {
+          "key": "minnesota",
+          "name_en": "State of Minnesota",
+          "name_jp": "ミネソタ州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Kandiyohi County",
+            "Lac qui Parle County",
+            "Meeker County",
+            "Morrison County",
+            "Mower County",
+            "Stearns County",
+            "Zone within 10 km of outbreak place"
+          ],
+          "active_regions_jp": [
+            "カンディヨーハイ郡※2021/11/29/付で",
+            "スターンズ郡",
+            "ミーカー郡",
+            "モリソン郡",
+            "モーア郡",
+            "ラクキパール郡",
+            "発生場所から"
+          ]
+        },
+        {
+          "key": "mississippi",
+          "name_en": "State of Mississippi",
+          "name_jp": "ミシシッピ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "missouri",
+          "name_en": "State of Missouri",
+          "name_jp": "ミズーリ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "montana",
+          "name_en": "State of Montana",
+          "name_jp": "モンタナ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Beaverhead County",
+            "Broadwater County",
+            "Carbon County",
+            "Cascade County",
+            "Fergus County",
+            "Gallatin County",
+            "Liberty County",
+            "Park County",
+            "Valley County",
+            "Yellowstone County"
+          ],
+          "active_regions_jp": [
+            "イエローストーン郡",
+            "カスケード郡",
+            "カーボン郡",
+            "ギャラティン郡",
+            "バレー郡",
+            "パーク郡",
+            "ビーバーヘッド郡",
+            "ファーガス郡",
+            "ブロードウォーター郡",
+            "リバティ郡"
+          ]
+        },
+        {
+          "key": "nebraska",
+          "name_en": "State of Nebraska",
+          "name_jp": "ネブラスカ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Butler County",
+            "Douglas County",
+            "Howard County",
+            "Keith County",
+            "Red Willow County",
+            "Scotts Bluff County",
+            "Valley County",
+            "Washington County"
+          ],
+          "active_regions_jp": [
+            "キース郡",
+            "スコッツブラフ郡",
+            "ダグラス郡",
+            "ハワード郡",
+            "バトラー郡",
+            "バレー郡",
+            "レッドウィロー郡",
+            "ワシントン郡"
+          ]
+        },
+        {
+          "key": "nevada",
+          "name_en": "State of Nevada",
+          "name_jp": "ネバダ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Carson City",
+            "Churchill County",
+            "Clark County",
+            "Douglas County",
+            "Nye County"
+          ],
+          "active_regions_jp": [
+            "カーソンシティ郡",
+            "クラーク郡",
+            "ダグラス郡",
+            "チャーチル郡",
+            "ナイ郡"
+          ]
+        },
+        {
+          "key": "new hampshire",
+          "name_en": "State of New Hampshire",
+          "name_jp": "ニューハンプシャー州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "new jersey",
+          "name_en": "State of New Jersey",
+          "name_jp": "ニュージャージー州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Union County"
+          ],
+          "active_regions_jp": [
+            "ユニオン郡"
+          ]
+        },
+        {
+          "key": "new mexico",
+          "name_en": "State of New Mexico",
+          "name_jp": "ニューメキシコ州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Bernalillo County",
+            "Valencia County"
+          ],
+          "active_regions_jp": [
+            "バレンシア郡",
+            "ベルナリオ郡"
+          ]
+        },
+        {
+          "key": "new york",
+          "name_en": "State of New York",
+          "name_jp": "ニューヨーク州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Zone within 10 km of outbreak place"
+          ],
+          "active_regions_jp": [
+            "発生場所から"
+          ]
+        },
+        {
+          "key": "north carolina",
+          "name_en": "State of North Carolina",
+          "name_jp": "ノースカロライナ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "north dakota",
+          "name_en": "State of North Dakota",
+          "name_jp": "ノースダコタ州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "McHenry County"
+          ],
+          "active_regions_jp": [
+            "マクヘンリー郡"
+          ]
+        },
+        {
+          "key": "ohio",
+          "name_en": "State of Ohio",
+          "name_jp": "オハイオ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Auglaize County",
+            "Clermont County",
+            "Morrow County",
+            "Portage County"
+          ],
+          "active_regions_jp": [
+            "オーグレイズ郡",
+            "クラーモント郡",
+            "ポーテージ郡",
+            "モロー郡"
+          ]
+        },
+        {
+          "key": "oklahoma",
+          "name_en": "State of Oklahoma",
+          "name_jp": "オクラホマ州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Comanche County",
+            "Grady County",
+            "Kingfisher County",
+            "Mcclain County",
+            "Wagoner County"
+          ],
+          "active_regions_jp": [
+            "キングフィッシャー郡",
+            "グレイディ郡",
+            "コマンチ郡",
+            "マクレーン郡",
+            "ワゴナー郡"
+          ]
+        },
+        {
+          "key": "oregon",
+          "name_en": "State of Oregon",
+          "name_jp": "オレゴン州",
+          "status": "pending",
+          "active_regions_en": [
+            "Clackamas County",
+            "Crook",
+            "Jackson",
+            "Malheur",
+            "Union County"
+          ],
+          "active_regions_jp": [
+            "クラカマス郡",
+            "クルック郡",
+            "ジャクソン郡",
+            "マルヒュア郡",
+            "ユニオン郡"
+          ]
+        },
+        {
+          "key": "pennsylvania",
+          "name_en": "Commonwealth of Pennsylvania",
+          "name_jp": "ペンシルバニア州",
+          "status": "whole_state",
+          "active_regions_en": [
+            "Venango",
+            "Zone within 10 km of outbreak place"
+          ],
+          "active_regions_jp": [
+            "ベナンゴ郡",
+            "発生場所から"
+          ]
+        },
+        {
+          "key": "rhode island",
+          "name_en": "State of Rhode Island",
+          "name_jp": "ロードアイランド州",
+          "status": "pending",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "south carolin",
+          "name_en": "State of South Carolin",
+          "name_jp": "サウスカロライナ州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "south dakota",
+          "name_en": "State of South Dakota",
+          "name_jp": "サウスダコタ州",
+          "status": "pending",
+          "active_regions_en": [
+            "Beadle County",
+            "Charles Mix County",
+            "Edmunds County",
+            "Faulk County",
+            "Hamlin County",
+            "Hutchinson County",
+            "Jerauld County",
+            "Kingsbury County",
+            "Marshall County",
+            "McPherson County",
+            "Meade County",
+            "Spink County",
+            "Turner County"
+          ],
+          "active_regions_jp": [
+            "エドマンズ郡",
+            "キングスベリー郡",
+            "ジェロールド郡",
+            "スピンク郡",
+            "ターナー郡",
+            "チャールズミックス郡",
+            "ハッチンソン郡",
+            "ハムリン郡",
+            "ビードル郡",
+            "フォーク郡",
+            "マクファーソン郡",
+            "マーシャル郡",
+            "ミード郡"
+          ]
+        },
+        {
+          "key": "tennessee",
+          "name_en": "State of Tennessee",
+          "name_jp": "テネシー州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Hawkins County",
+            "Obion County"
+          ],
+          "active_regions_jp": [
+            "オビオン郡",
+            "ホーキンス郡"
+          ]
+        },
+        {
+          "key": "texas",
+          "name_en": "State of Texas",
+          "name_jp": "テキサス州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "utah",
+          "name_en": "State of Utah",
+          "name_jp": "ユタ州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "vermont",
+          "name_en": "State of Vermont",
+          "name_jp": "バーモント州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "virginia",
+          "name_en": "Commonwealth of Virginia",
+          "name_jp": "バージニア州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "washington",
+          "name_en": "State of Washington",
+          "name_jp": "ワシントン州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Clark County",
+            "Grant County",
+            "Grays Harbor County",
+            "Island County",
+            "Jefferson County",
+            "Lewis",
+            "Pierce County",
+            "San Juan County",
+            "Skagit County",
+            "Snohomish County",
+            "Whatcom County",
+            "Yakima County"
+          ],
+          "active_regions_jp": [
+            "アイランド郡",
+            "クラーク郡",
+            "グラント郡",
+            "グレイズハーバー郡",
+            "サンフアン郡",
+            "ジェファーソン郡",
+            "スカジット郡",
+            "スノホミッシュ郡",
+            "ピアース郡",
+            "ヤキマ郡",
+            "ルイス郡",
+            "ワットコム郡"
+          ]
+        },
+        {
+          "key": "west virginia",
+          "name_en": "State of West Virginia",
+          "name_jp": "ウェストバージニア州",
+          "status": "partial_state",
+          "active_regions_en": [
+            "Greenbrier County",
+            "Jackson County",
+            "Kanawha County",
+            "Monongalia County"
+          ],
+          "active_regions_jp": [
+            "カナー郡",
+            "グリーンブライア郡",
+            "ジャクソン郡",
+            "モノンガリア郡"
+          ]
+        },
+        {
+          "key": "wisconsin",
+          "name_en": "State of Wisconsin",
+          "name_jp": "ウィスコンシン州",
+          "status": "whole_state",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        },
+        {
+          "key": "wyoming",
+          "name_en": "State of Wyoming",
+          "name_jp": "ワイオミング州",
+          "status": "inactive",
+          "active_regions_en": [],
+          "active_regions_jp": []
+        }
+      ],
+      "active_regions_en": [],
+      "active_regions_jp": []
+    }
+  ]
+}
