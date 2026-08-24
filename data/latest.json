@@ -1,32 +1,86 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-08-24T12:36:26+09:00",
-  "last_success_at": "2026-08-24T12:36:26+09:00",
+  "schema_version": 2,
+  "generated_at": "2026-08-24T16:35:51+09:00",
+  "last_success_at": "2026-08-24T16:35:51+09:00",
+  "run_status": "degraded",
+  "health": {
+    "overall": "WARN",
+    "message": "一部の情報源に注意が必要です"
+  },
   "sources": {
+    "wahis": {
+      "name": "WOAH WAHIS",
+      "status": "warn",
+      "url": "https://wahis.woah.org/",
+      "attempted_at": "2026-08-24T16:35:51+09:00",
+      "fetched_at": "2026-08-24T16:35:51+09:00",
+      "record_count": 0,
+      "detail": "取得または鮮度に注意。公式ページで確認してください。",
+      "error": true
+    },
+    "aphis": {
+      "name": "USDA APHIS",
+      "status": "ok",
+      "url": "https://www.aphis.usda.gov/",
+      "attempted_at": "2026-08-24T16:35:51+09:00",
+      "fetched_at": "2026-08-24T16:24:17+09:00",
+      "record_count": 0,
+      "detail": "取得・処理OK",
+      "error": false
+    },
+    "mapa": {
+      "name": "Brazil MAPA",
+      "status": "warn",
+      "url": "https://mapa-indicadores.agricultura.gov.br/",
+      "attempted_at": "2026-08-24T16:35:51+09:00",
+      "fetched_at": "2026-08-24T16:35:51+09:00",
+      "record_count": 0,
+      "detail": "取得または鮮度に注意。公式ページで確認してください。",
+      "error": true
+    },
     "maff_hpai": {
+      "name": "MAFF HPAI輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/topix/im/hpai.html",
-      "attempted_at": "2026-08-24T12:36:26+09:00",
-      "fetched_at": "2026-08-24T12:36:26+09:00",
-      "content_sha256": "3f490d890a9ccc8a93a88723779fd4dea74ffb8b6a835e081c3b57a3c2ac0af5",
+      "attempted_at": "2026-08-24T16:35:51+09:00",
+      "fetched_at": "2026-08-24T16:35:51+09:00",
       "record_count": 31,
-      "error": null
+      "detail": "取得・処理OK",
+      "error": false
+    },
+    "maff_cloven": {
+      "name": "MAFF 偶蹄類輸入停止",
+      "status": "ok",
+      "url": "https://www.maff.go.jp/aqs/hou/require/sub2.html",
+      "attempted_at": "2026-08-24T16:35:51+09:00",
+      "fetched_at": "2026-08-24T16:35:51+09:00",
+      "record_count": 22,
+      "detail": "取得・処理OK",
+      "error": false
     }
   },
-  "suspensions": [
+  "summary": {
+    "total_rows": 0,
+    "total_events": 0,
+    "report_events": 0,
+    "action_counts": {},
+    "highlights": []
+  },
+  "records": [],
+  "hpai_suspensions": [
     {
       "country_en": "Argentina",
       "country_jp": "アルゼンチン",
       "commodity": "poultry_meat",
       "whole_country": true,
       "latest_suspension": "2025年07月17日",
-      "states": [],
       "active_regions_en": [
         "Whole area of República Argentina"
       ],
       "active_regions_jp": [
         "アルゼンチン全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Australia",
@@ -34,13 +88,13 @@
       "commodity": "live_poultry",
       "whole_country": true,
       "latest_suspension": "2024年05月22日",
-      "states": [],
       "active_regions_en": [
         "Whole area of Australia"
       ],
       "active_regions_jp": [
         "オーストラリア全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Australia",
@@ -48,13 +102,13 @@
       "commodity": "poultry_meat",
       "whole_country": true,
       "latest_suspension": "2024年05月22日",
-      "states": [],
       "active_regions_en": [
         "Whole area of Australia"
       ],
       "active_regions_jp": [
         "オーストラリア全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Austria",
@@ -62,13 +116,13 @@
       "commodity": "poultry_meat",
       "whole_country": true,
       "latest_suspension": "2021年11月27日",
-      "states": [],
       "active_regions_en": [
         "Whole area of Austria"
       ],
       "active_regions_jp": [
         "オーストリア全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Brazil",
@@ -76,7 +130,6 @@
       "commodity": "live_poultry",
       "whole_country": false,
       "latest_suspension": "2026年07月18日",
-      "states": [],
       "active_regions_en": [
         "Pará",
         "Rio Grande do Sul"
@@ -84,7 +137,8 @@
       "active_regions_jp": [
         "パラー州",
         "リオグランデ・ド・スル州"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Brazil",
@@ -92,6 +146,8 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2026年07月18日",
+      "active_regions_en": [],
+      "active_regions_jp": [],
       "states": [
         {
           "key": "ceara",
@@ -165,9 +221,7 @@
           "active_regions_en": [],
           "active_regions_jp": []
         }
-      ],
-      "active_regions_en": [],
-      "active_regions_jp": []
+      ]
     },
     {
       "country_en": "Bulgaria",
@@ -175,7 +229,6 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2026年02月12日",
-      "states": [],
       "active_regions_en": [
         "Burgas",
         "Dobrich",
@@ -207,7 +260,8 @@
         "ヤンボル州",
         "ヴァルナ州",
         "ヴェリコ・タルノヴォ州"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Canada",
@@ -215,7 +269,6 @@
       "commodity": "live_poultry",
       "whole_country": false,
       "latest_suspension": "2025年05月19日",
-      "states": [],
       "active_regions_en": [
         "Alberta",
         "British Columbia",
@@ -235,7 +288,8 @@
         "ブリティッシュコロンビア州",
         "プリンス・エドワード・アイランド州",
         "マニトバ州"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Canada",
@@ -243,7 +297,6 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2025年05月19日",
-      "states": [],
       "active_regions_en": [
         "Alberta",
         "British Columbia",
@@ -259,7 +312,8 @@
         "ブリティッシュコロンビア州",
         "プリンス・エドワード・アイランド州",
         "マニトバ州Manitoba"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Chile",
@@ -267,7 +321,6 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2026年3月11日",
-      "states": [],
       "active_regions_en": [
         "Bío-Bío",
         "La Araucanía",
@@ -289,7 +342,8 @@
         "マガジャネス・イ・デ・ラ・アンタルティカ・チレナ州",
         "リベルタドール・ベルナルド・オイギンス州",
         "ロス・ラゴス州"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Costa Rica",
@@ -297,11 +351,11 @@
       "commodity": "poultry_meat",
       "whole_country": true,
       "latest_suspension": "2023年02月04日",
-      "states": [],
       "active_regions_en": [
         "Whole area of República de Costa Rica"
       ],
-      "active_regions_jp": []
+      "active_regions_jp": [],
+      "states": []
     },
     {
       "country_en": "Denmark",
@@ -309,7 +363,6 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2025年10月15日",
-      "states": [],
       "active_regions_en": [
         "Veterinary Inspection Division(VID)",
         "Veterinary Inspection Division(VID) East",
@@ -319,7 +372,8 @@
         "獣医学的検査区域（VID）のうちEast の地域",
         "獣医学的検査区域（VID）のうちNorth の地域",
         "獣医学的検査区域（VID）のうちSouth の地域"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "France",
@@ -327,7 +381,6 @@
       "commodity": "live_poultry",
       "whole_country": false,
       "latest_suspension": "2023年06月05日",
-      "states": [],
       "active_regions_en": [
         "Aisne(2)",
         "Ardennes(8)",
@@ -405,7 +458,8 @@
         "ロット県",
         "ロワレ県",
         "ローヌ県"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "France",
@@ -413,7 +467,6 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2023年06月05日",
-      "states": [],
       "active_regions_en": [
         "Aisne(2)",
         "Ardennes(8)",
@@ -494,7 +547,8 @@
         "ロット県",
         "ロワレ県",
         "ローヌ県"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Germany",
@@ -502,13 +556,13 @@
       "commodity": "live_poultry",
       "whole_country": true,
       "latest_suspension": "2021年10月25日",
-      "states": [],
       "active_regions_en": [
         "Whole area of Germany"
       ],
       "active_regions_jp": [
         "ドイツ全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Germany",
@@ -516,7 +570,6 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2026年02月26日",
-      "states": [],
       "active_regions_en": [
         "Baden-wuerttemberg",
         "Bayern",
@@ -542,7 +595,8 @@
         "ヘッセン州",
         "メクレンブルク・フォアポンメルン州",
         "ラインラント・プファルツ州"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Hungary",
@@ -550,13 +604,13 @@
       "commodity": "live_poultry",
       "whole_country": false,
       "latest_suspension": "2024年01月18日",
-      "states": [],
       "active_regions_en": [
         "Somogy"
       ],
       "active_regions_jp": [
         "ショモジ県"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Lithuania",
@@ -564,7 +618,6 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2026年06月10日",
-      "states": [],
       "active_regions_en": [
         "Kauno",
         "Vilniaus"
@@ -572,7 +625,8 @@
       "active_regions_jp": [
         "カウナス州",
         "ヴィリニュス州"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Netherlands",
@@ -580,7 +634,6 @@
       "commodity": "live_poultry",
       "whole_country": false,
       "latest_suspension": "2025年11月25日",
-      "states": [],
       "active_regions_en": [
         "Animal Health Municipalities: Num.1",
         "Animal Health Municipalities: Num.10",
@@ -624,7 +677,8 @@
         "家畜衛生単位第7区域",
         "家畜衛生単位第8区域",
         "家畜衛生単位第9区域"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Netherlands",
@@ -632,7 +686,6 @@
       "commodity": "poultry_meat",
       "whole_country": true,
       "latest_suspension": "2025年11月25日",
-      "states": [],
       "active_regions_en": [
         "Animal Health Municipalities: Num.1",
         "Animal Health Municipalities: Num.10",
@@ -677,7 +730,8 @@
         "家畜衛生単位第7区域",
         "家畜衛生単位第8区域",
         "家畜衛生単位第9区域Animal Health Municipalities: Num.9"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Peru",
@@ -685,13 +739,13 @@
       "commodity": "poultry_meat",
       "whole_country": true,
       "latest_suspension": "2022年12月02日",
-      "states": [],
       "active_regions_en": [
         "Whole area of Peru"
       ],
       "active_regions_jp": [
         "ペルー全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Philippines",
@@ -699,13 +753,13 @@
       "commodity": "poultry_meat",
       "whole_country": true,
       "latest_suspension": "2022年02月22日",
-      "states": [],
       "active_regions_en": [
         "Whole area of Philippine"
       ],
       "active_regions_jp": [
         "フィリピン全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Poland",
@@ -713,7 +767,6 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2026年01月21日",
-      "states": [],
       "active_regions_en": [
         "Lodz",
         "Opolskie",
@@ -749,7 +802,8 @@
         "ヴァルミア・マズールィ県",
         "ヴィエルコポルスカ県",
         "西ポモージェ県"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Portugal",
@@ -757,13 +811,13 @@
       "commodity": "poultry_meat",
       "whole_country": true,
       "latest_suspension": "2024年08月16日",
-      "states": [],
       "active_regions_en": [
         "Whole area of Portugal"
       ],
       "active_regions_jp": [
         "ポルトガル全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Sweden",
@@ -771,13 +825,13 @@
       "commodity": "live_poultry",
       "whole_country": true,
       "latest_suspension": "2025年10月22日",
-      "states": [],
       "active_regions_en": [
         "Whole area of Sweden"
       ],
       "active_regions_jp": [
         "スウェーデン全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Sweden",
@@ -785,13 +839,13 @@
       "commodity": "poultry_meat",
       "whole_country": true,
       "latest_suspension": "2025年10月22日",
-      "states": [],
       "active_regions_en": [
         "Whole area of Sweden"
       ],
       "active_regions_jp": [
         "スウェーデン全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "Ukraine",
@@ -799,13 +853,13 @@
       "commodity": "poultry_meat",
       "whole_country": true,
       "latest_suspension": "2021年10月18日",
-      "states": [],
       "active_regions_en": [
         "Whole area of Ukraine"
       ],
       "active_regions_jp": [
         "ウクライナ全土"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "United Kingdom",
@@ -813,7 +867,6 @@
       "commodity": "live_poultry",
       "whole_country": false,
       "latest_suspension": "2026年02月16日",
-      "states": [],
       "active_regions_en": [
         "Cambridgeshire",
         "Cheshire",
@@ -893,7 +946,8 @@
         "リンカンシャー州",
         "ロクスバラ州",
         "ローダーデール州"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "United Kingdom",
@@ -901,7 +955,6 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2026年02月16日",
-      "states": [],
       "active_regions_en": [
         "Cheshire",
         "Clwyd",
@@ -976,7 +1029,8 @@
         "リンカンシャー州",
         "ロクスバラ州",
         "ローダーデール州"
-      ]
+      ],
+      "states": []
     },
     {
       "country_en": "United States",
@@ -984,6 +1038,8 @@
       "commodity": "live_poultry",
       "whole_country": false,
       "latest_suspension": "2026年06月12日",
+      "active_regions_en": [],
+      "active_regions_jp": [],
       "states": [
         {
           "key": "alabama",
@@ -1753,9 +1809,7 @@
           "active_regions_en": [],
           "active_regions_jp": []
         }
-      ],
-      "active_regions_en": [],
-      "active_regions_jp": []
+      ]
     },
     {
       "country_en": "United States",
@@ -1763,6 +1817,8 @@
       "commodity": "poultry_meat",
       "whole_country": false,
       "latest_suspension": "2026年06月12日",
+      "active_regions_en": [],
+      "active_regions_jp": [],
       "states": [
         {
           "key": "alabama",
@@ -2532,9 +2588,235 @@
           "active_regions_en": [],
           "active_regions_jp": []
         }
+      ]
+    }
+  ],
+  "cloven_suspensions": [
+    {
+      "country_en": "Austria",
+      "country_jp": "オーストリア",
+      "scope": "sheep_goat",
+      "suspended": true,
+      "diseases": [],
+      "detail": "羊、山羊に由来する畜産物輸入停止中です。"
+    },
+    {
+      "country_en": "Belgium",
+      "country_jp": "ベルギー",
+      "scope": "sheep_goat",
+      "suspended": true,
+      "diseases": [],
+      "detail": "羊、山羊に由来する畜産物輸入停止中です。"
+    },
+    {
+      "country_en": "Canada",
+      "country_jp": "カナダ",
+      "scope": "sheep_goat",
+      "suspended": true,
+      "diseases": [],
+      "detail": "羊、山羊に由来する畜産物輸入停止中です。"
+    },
+    {
+      "country_en": "Croatia",
+      "country_jp": "クロアチア",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [],
+      "detail": "豚、イノシシに由来する畜産物輸入禁止地域のため、輸入することができません。"
+    },
+    {
+      "country_en": "Czechia",
+      "country_jp": "チェコ",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [
+        "ASF"
       ],
-      "active_regions_en": [],
-      "active_regions_jp": []
+      "detail": "（注）チェコにおけるアフリカ豚熱の発生を受け、本条件に基づき輸入が停止されました。プレスリリース参照輸出国政府機関に指定された施設一覧はこちら。"
+    },
+    {
+      "country_en": "Denmark",
+      "country_jp": "デンマーク",
+      "scope": "sheep_goat",
+      "suspended": true,
+      "diseases": [],
+      "detail": "羊、山羊に由来する畜産物輸入停止中です。"
+    },
+    {
+      "country_en": "Finland",
+      "country_jp": "フィンランド",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [
+        "ASF"
+      ],
+      "detail": "（注）アフリカ豚熱の発生が確認されたため、令和8年7月31日以降、輸入が停止されました。プレスリリース参照"
+    },
+    {
+      "country_en": "Finland",
+      "country_jp": "フィンランド",
+      "scope": "sheep_goat",
+      "suspended": true,
+      "diseases": [],
+      "detail": "羊、山羊に由来する畜産物輸入停止中です。"
+    },
+    {
+      "country_en": "France",
+      "country_jp": "フランス",
+      "scope": "cattle",
+      "suspended": true,
+      "diseases": [
+        "LSD"
+      ],
+      "detail": "（注）ランピースキン病の発生により、令和7年7月1日以降、牛由来製品の輸入が停止されました。令和8年7月1日付けで、停止除外対象を改めて整理しました。"
+    },
+    {
+      "country_en": "Germany",
+      "country_jp": "ドイツ",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [
+        "ASF"
+      ],
+      "detail": "（注）ASF（アフリカ豚熱）の発生が確認されたため、令和2年9月11日以降、豚及びイノシシの肉、臓器等の輸入が停止されました。プレスリリース参照"
+    },
+    {
+      "country_en": "Germany",
+      "country_jp": "ドイツ",
+      "scope": "sheep_goat",
+      "suspended": true,
+      "diseases": [],
+      "detail": "羊、山羊に由来する畜産物輸入停止中です。"
+    },
+    {
+      "country_en": "Guatemala",
+      "country_jp": "グアテマラ",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [],
+      "detail": "豚、イノシシに由来する畜産物輸入停止中です。（PDF：17KB）"
+    },
+    {
+      "country_en": "Italy",
+      "country_jp": "イタリア",
+      "scope": "cattle",
+      "suspended": true,
+      "diseases": [
+        "LSD"
+      ],
+      "detail": "（注）ランピースキン病の発生により、令和7年6月24日以降、牛由来製品の輸入が停止されました。令和8年7月1日付けで、停止除外対象を改めて整理しました。"
+    },
+    {
+      "country_en": "Italy",
+      "country_jp": "イタリア",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [
+        "ASF"
+      ],
+      "detail": "（注）アフリカ豚熱の発生が確認されたため、令和4年1月8日以降、輸入が停止されました。プレスリリース参照"
+    },
+    {
+      "country_en": "Lithuania",
+      "country_jp": "リトアニア",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [],
+      "detail": "豚、イノシシに由来する畜産物輸入禁止地域のため、輸入することができません。"
+    },
+    {
+      "country_en": "Nicaragua",
+      "country_jp": "ニカラグア",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [],
+      "detail": "豚、イノシシに由来する畜産物輸入停止中です。（PDF：21KB）"
+    },
+    {
+      "country_en": "Poland",
+      "country_jp": "ポーランド",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [
+        "ASF"
+      ],
+      "detail": "（注）ASF（アフリカ豚熱）の発生が確認されたため、平成26年2月18日以降、豚及びイノシシの肉、臓器等の輸入が停止されました。"
+    },
+    {
+      "country_en": "San Marino",
+      "country_jp": "サンマリノ",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [
+        "ASF"
+      ],
+      "detail": "（注）イタリアにおけるアフリカ豚熱の発生を受け、本条件に基づき輸入が停止されました。"
+    },
+    {
+      "country_en": "Spain",
+      "country_jp": "スペイン",
+      "scope": "cattle",
+      "suspended": true,
+      "diseases": [
+        "LSD"
+      ],
+      "detail": "（注）ランピースキン病の発生により、令和7年10月5日以降、牛由来製品の輸入が停止されました。令和8年7月1日付けで、停止除外対象を改めて整理しました。"
+    },
+    {
+      "country_en": "Spain",
+      "country_jp": "スペイン",
+      "scope": "pig",
+      "suspended": true,
+      "diseases": [
+        "ASF"
+      ],
+      "detail": "（注）アフリカ豚熱の発生が確認されたため、令和7年11月28日以降、輸入が停止されました。プレスリリース参照ただし、令和7年10月29日以前にと殺・加工・梱包まで終了しているものであり、かつ輸出されるまでの間、防疫上安全かつ衛生的に保管及び輸送されたものであることをスペイン政府が"
+    },
+    {
+      "country_en": "Sweden",
+      "country_jp": "スウェーデン",
+      "scope": "sheep_goat",
+      "suspended": true,
+      "diseases": [],
+      "detail": "羊、山羊に由来する畜産物輸入停止中です。"
+    },
+    {
+      "country_en": "Switzerland",
+      "country_jp": "スイス",
+      "scope": "sheep_goat",
+      "suspended": true,
+      "diseases": [],
+      "detail": "羊、山羊に由来する畜産物輸入停止中です。"
+    }
+  ],
+  "monitoring": [
+    {
+      "name": "英国 (gov.uk)",
+      "status": "更新あり",
+      "changed": true,
+      "url": "https://www.gov.uk/government/news/bird-flu-avian-influenza-latest-situation-in-england",
+      "detail": "更新を検知しました。"
+    },
+    {
+      "name": "MAPA (ブラジル)",
+      "status": "変更なし",
+      "changed": false,
+      "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SRN_v2_EN/SRN_v2_EN.html",
+      "detail": "更新なし"
+    },
+    {
+      "name": "APHIS (米国)",
+      "status": "変更なし",
+      "changed": false,
+      "url": "https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/commercial-backyard-flocks",
+      "detail": "更新なし"
+    },
+    {
+      "name": "家畜衛生条件PDF/判定CSV",
+      "status": "確認不可",
+      "changed": false,
+      "url": "https://www.maff.go.jp/aqs/hou/require/",
+      "detail": "公式ページを直接確認してください。"
     }
   ]
 }

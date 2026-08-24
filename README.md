@@ -2,9 +2,9 @@
 
 職場PCで公開情報を確認するための、結果データ専用リポジトリです。
 
-公開しているのは、農林水産省動物検疫所の公開ページから生成した
-`data/latest.json`と、この説明だけです。収集・解析コード、GitHub Actions、
-テスト、職場PC用HTML、認証情報、メール設定、既報状態は含みません。
+公開しているのは、非公開collectorが公式情報から生成した結果JSONと、この説明だけです。
+収集・解析コード、GitHub Actions、テスト、職場PC用HTML、認証情報、メール設定、
+既報状態は含みません。
 
 ## Raw URL
 
@@ -12,6 +12,12 @@
 https://raw.githubusercontent.com/san-myaku/overseas-disease-data/main/data/latest.json
 ```
 
-`sources.maff_hpai.status`が`ok`なら最新取得成功、`error`なら取得失敗時の
-前回成功データです。表示内容は確認支援用であり、最終判断はJSON内の出典URLから
-農林水産省公式ページを確認してください。
+`schema_version`が`2`のJSONには、次の結果を含みます。
+
+- WOAH WAHIS、米国APHIS、ブラジルMAPAの発生情報と日本の輸入停止要否判定
+- MAFFのHPAI（家きん）輸入停止情報
+- MAFFの偶蹄類畜産物の輸入停止情報
+- 各情報源の取得状態と一次情報URL
+
+`run_status`が`error`の場合は、最新取得に失敗したため前回成功データを保持しています。
+表示内容は確認支援用であり、最終判断はJSON内の出典URLから各公式ページを確認してください。
