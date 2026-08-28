@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-28T12:32:06+09:00",
+  "runs": [
+    {
+      "run_id": "33138746077",
+      "attempted_at": "2026-08-28T12:32:06+09:00",
+      "generated_at": "2026-08-28T12:32:06+09:00",
+      "last_success_at": "2026-08-28T12:32:06+09:00",
+      "event": "workflow_dispatch",
+      "collector_outcome": "success",
+      "run_status": "degraded",
+      "health_overall": "WARN",
+      "summary": {
+        "total_rows": 65,
+        "total_events": 20,
+        "report_events": 7,
+        "new_counts": {
+          "WAHIS": 20,
+          "APHIS": 0,
+          "MAPA": 0
+        }
+      },
+      "sources": {
+        "wahis": {
+          "status": "ok",
+          "record_count": 65
+        },
+        "aphis": {
+          "status": "ok",
+          "record_count": 4
+        },
+        "mapa": {
+          "status": "ok",
+          "record_count": 3
+        },
+        "maff_hpai": {
+          "status": "ok",
+          "record_count": 29
+        },
+        "maff_cloven": {
+          "status": "ok",
+          "record_count": 22
+        }
+      }
+    },
+    {
+      "run_id": "baseline:2026-08-27T13:03:33+09:00",
+      "attempted_at": "2026-08-27T13:03:33+09:00",
+      "generated_at": "2026-08-27T13:03:33+09:00",
+      "last_success_at": "2026-08-27T13:03:33+09:00",
+      "event": "baseline",
+      "collector_outcome": "success",
+      "run_status": "degraded",
+      "health_overall": "WARN",
+      "summary": {
+        "total_rows": 405,
+        "total_events": 15,
+        "report_events": 3,
+        "new_counts": {
+          "WAHIS": 14,
+          "APHIS": 1,
+          "MAPA": 0
+        }
+      },
+      "sources": {
+        "wahis": {
+          "status": "ok",
+          "record_count": 405
+        },
+        "aphis": {
+          "status": "ok",
+          "record_count": 4
+        },
+        "mapa": {
+          "status": "ok",
+          "record_count": 3
+        },
+        "maff_hpai": {
+          "status": "ok",
+          "record_count": 29
+        },
+        "maff_cloven": {
+          "status": "ok",
+          "record_count": 22
+        }
+      }
+    }
+  ]
+}

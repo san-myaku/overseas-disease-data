@@ -10,6 +10,7 @@
 
 ```text
 https://raw.githubusercontent.com/san-myaku/overseas-disease-data/main/data/latest.json
+https://raw.githubusercontent.com/san-myaku/overseas-disease-data/main/data/history.json
 ```
 
 `schema_version`が`2`のJSONには、次の結果を含みます。
@@ -22,4 +23,5 @@ https://raw.githubusercontent.com/san-myaku/overseas-disease-data/main/data/late
 画面とメールを揃えるため、`summary.highlights`にメール本文と同じ報告対象イベントの要約、`summary.new_counts`に情報源ごとの新規件数を含みます。`records`は今回の新規報告に属する全明細（メール添付CSV相当）で、必要な場合に画面の折り畳みから確認します。期間内の既報を含む全件スナップショットは公開しません。
 
 `run_status`が`error`の場合は、最新取得に失敗したため前回成功データを保持しています。
+`history.json`は直近90回の実行時刻、成功・失敗、集計値、情報源別状態だけを保持します。収集コード、ログ、秘密情報は含みません。
 表示内容は確認支援用であり、最終判断はJSON内の出典URLから各公式ページを確認してください。
