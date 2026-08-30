@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-30T08:22:51+09:00",
-  "last_success_at": "2026-08-30T08:22:51+09:00",
+  "generated_at": "2026-08-31T08:32:29+09:00",
+  "last_success_at": "2026-08-31T08:32:29+09:00",
   "run_status": "degraded",
   "health": {
     "overall": "WARN",
@@ -12,8 +12,8 @@
       "name": "WOAH WAHIS",
       "status": "ok",
       "url": "https://wahis.woah.org/",
-      "attempted_at": "2026-08-30T08:22:51+09:00",
-      "fetched_at": "2026-08-30T08:22:51+09:00",
+      "attempted_at": "2026-08-31T08:32:29+09:00",
+      "fetched_at": "2026-08-31T08:32:29+09:00",
       "record_count": 0,
       "detail": "取得・処理OK",
       "error": false
@@ -22,8 +22,8 @@
       "name": "USDA APHIS",
       "status": "warn",
       "url": "https://www.aphis.usda.gov/",
-      "attempted_at": "2026-08-30T08:22:51+09:00",
-      "fetched_at": "2026-08-30T08:22:09+09:00",
+      "attempted_at": "2026-08-31T08:32:29+09:00",
+      "fetched_at": "2026-08-31T08:31:44+09:00",
       "record_count": 5,
       "detail": "取得または鮮度に注意。公式ページで確認してください。",
       "error": true
@@ -32,8 +32,8 @@
       "name": "Brazil MAPA",
       "status": "warn",
       "url": "https://mapa-indicadores.agricultura.gov.br/",
-      "attempted_at": "2026-08-30T08:22:51+09:00",
-      "fetched_at": "2026-08-30T08:22:27+09:00",
+      "attempted_at": "2026-08-31T08:32:29+09:00",
+      "fetched_at": "2026-08-31T08:31:59+09:00",
       "record_count": 3,
       "detail": "取得または鮮度に注意。公式ページで確認してください。",
       "error": true
@@ -42,8 +42,8 @@
       "name": "MAFF HPAI輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/topix/im/hpai.html",
-      "attempted_at": "2026-08-30T08:22:51+09:00",
-      "fetched_at": "2026-08-30T08:22:51+09:00",
+      "attempted_at": "2026-08-31T08:32:29+09:00",
+      "fetched_at": "2026-08-31T08:32:29+09:00",
       "record_count": 29,
       "detail": "取得・処理OK",
       "error": false
@@ -52,8 +52,8 @@
       "name": "MAFF 偶蹄類輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/hou/require/sub2.html",
-      "attempted_at": "2026-08-30T08:22:51+09:00",
-      "fetched_at": "2026-08-30T08:22:51+09:00",
+      "attempted_at": "2026-08-31T08:32:29+09:00",
+      "fetched_at": "2026-08-31T08:32:29+09:00",
       "record_count": 22,
       "detail": "取得・処理OK",
       "error": false
