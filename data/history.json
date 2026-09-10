@@ -1,7 +1,49 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-10T08:18:27+09:00",
+  "updated_at": "2026-09-11T08:15:08+09:00",
   "runs": [
+    {
+      "run_id": "34541023848",
+      "attempted_at": "2026-09-11T08:15:08+09:00",
+      "generated_at": "2026-09-11T08:15:07+09:00",
+      "last_success_at": "2026-09-11T08:15:07+09:00",
+      "event": "schedule",
+      "collector_outcome": "success",
+      "run_status": "degraded",
+      "health_overall": "WARN",
+      "summary": {
+        "total_rows": 172,
+        "total_events": 15,
+        "report_events": 7,
+        "new_counts": {
+          "WAHIS": 13,
+          "APHIS": 2,
+          "MAPA": 0
+        }
+      },
+      "sources": {
+        "wahis": {
+          "status": "ok",
+          "record_count": 172
+        },
+        "aphis": {
+          "status": "warn",
+          "record_count": 8
+        },
+        "mapa": {
+          "status": "warn",
+          "record_count": 3
+        },
+        "maff_hpai": {
+          "status": "ok",
+          "record_count": 28
+        },
+        "maff_cloven": {
+          "status": "ok",
+          "record_count": 22
+        }
+      }
+    },
     {
       "run_id": "34416179433",
       "attempted_at": "2026-09-10T08:18:27+09:00",
