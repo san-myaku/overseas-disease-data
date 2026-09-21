@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-21T08:16:59+09:00",
-  "last_success_at": "2026-09-21T08:16:59+09:00",
+  "generated_at": "2026-09-21T15:53:40+09:00",
+  "last_success_at": "2026-09-21T15:53:40+09:00",
   "run_status": "degraded",
   "health": {
     "overall": "WARN",
@@ -12,51 +12,61 @@
       "name": "WOAH WAHIS",
       "status": "ok",
       "url": "https://wahis.woah.org/",
-      "attempted_at": "2026-09-21T08:16:59+09:00",
-      "fetched_at": "2026-09-21T08:16:59+09:00",
-      "record_count": 0,
-      "detail": "取得・処理OK",
+      "attempted_at": "2026-09-21T15:53:40+09:00",
+      "fetched_at": "2026-09-21T15:53:40+09:00",
+      "record_count": 164,
+      "detail": "直近窓 164報告 / 収集OK",
       "error": false
     },
     "aphis": {
       "name": "USDA APHIS",
-      "status": "warn",
+      "status": "ok",
       "url": "https://www.aphis.usda.gov/",
-      "attempted_at": "2026-09-21T08:16:59+09:00",
-      "fetched_at": "2026-09-21T08:16:15+09:00",
+      "attempted_at": "2026-09-21T15:53:40+09:00",
+      "fetched_at": "2026-09-21T15:50:39+09:00",
       "record_count": 7,
-      "detail": "取得または鮮度に注意。公式ページで確認してください。",
-      "error": true
+      "detail": "自動取得 当日更新（aphis_export.csv）",
+      "error": false
     },
     "mapa": {
       "name": "Brazil MAPA",
       "status": "warn",
       "url": "https://mapa-indicadores.agricultura.gov.br/",
-      "attempted_at": "2026-09-21T08:16:59+09:00",
-      "fetched_at": "2026-09-21T08:16:31+09:00",
-      "record_count": 3,
-      "detail": "取得または鮮度に注意。公式ページで確認してください。",
+      "attempted_at": "2026-09-21T15:53:40+09:00",
+      "fetched_at": "2026-09-21T15:53:40+09:00",
+      "record_count": 0,
+      "detail": "本日は取込なし（自動取得・手動DLとも見つからず）。タイムアウト等で本日の自動取得ができていません。ブラジルの新規発生は公式サイトで手動確認を推奨します。",
       "error": true
     },
     "maff_hpai": {
       "name": "MAFF HPAI輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/topix/im/hpai.html",
-      "attempted_at": "2026-09-21T08:16:59+09:00",
-      "fetched_at": "2026-09-21T08:16:59+09:00",
+      "attempted_at": "2026-09-21T15:53:40+09:00",
+      "fetched_at": "2026-09-21T15:53:40+09:00",
       "record_count": 28,
-      "detail": "取得・処理OK",
+      "detail": "27国 読込",
       "error": false
     },
     "maff_cloven": {
       "name": "MAFF 偶蹄類輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/hou/require/sub2.html",
-      "attempted_at": "2026-09-21T08:16:59+09:00",
-      "fetched_at": "2026-09-21T08:16:59+09:00",
+      "attempted_at": "2026-09-21T15:53:40+09:00",
+      "fetched_at": "2026-09-21T15:53:40+09:00",
       "record_count": 22,
-      "detail": "取得・処理OK",
+      "detail": "33国 読込",
       "error": false
+    },
+    "condition_audit": {
+      "name": "家畜衛生条件監査",
+      "status": "warn",
+      "url": "https://www.maff.go.jp/aqs/hou/require/",
+      "attempted_at": "2026-09-21T15:53:40+09:00",
+      "fetched_at": "2026-09-21T15:53:40+09:00",
+      "record_count": null,
+      "detail": "CSV 0件をPDF/本文と照合 / 要確認候補 0件 / 未確認 159件",
+      "error": true
     }
   },
   "summary": {
@@ -67,8 +77,7 @@
     "highlights": [],
     "new_counts": {
       "WAHIS": 0,
-      "APHIS": 0,
-      "MAPA": 0
+      "APHIS": 0
     }
   },
   "records": [],
@@ -2600,29 +2609,45 @@
       "name": "英国 (gov.uk)",
       "status": "更新あり",
       "changed": true,
+      "ok": true,
+      "reliable": true,
       "url": "https://www.gov.uk/government/news/bird-flu-avian-influenza-latest-situation-in-england",
-      "detail": "更新を検知しました。判定への反映は公式ページで確認してください。"
+      "detail": "最終更新: 2026-08-03T17:00:51+01:00",
+      "issues": [],
+      "reviewed_count": null
     },
     {
       "name": "MAPA (ブラジル)",
-      "status": "変更なし",
+      "status": "確認不可",
       "changed": false,
+      "ok": false,
+      "reliable": false,
       "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SRN_v2_EN/SRN_v2_EN.html",
-      "detail": "更新なし"
+      "detail": "エクスポートファイル未取得（自動DL/手動DLが無いため未確認）。リンクから直接確認してください。",
+      "issues": [],
+      "reviewed_count": null
     },
     {
       "name": "APHIS (米国)",
       "status": "変更なし",
       "changed": false,
+      "ok": true,
+      "reliable": true,
       "url": "https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/commercial-backyard-flocks",
-      "detail": "更新なし"
+      "detail": "2255件 / 最新確定日 2026/09/16（aphis_export.csv）（初回のため基準値を記録）",
+      "issues": [],
+      "reviewed_count": null
     },
     {
       "name": "家畜衛生条件PDF/判定CSV",
       "status": "確認不可",
       "changed": false,
+      "ok": false,
+      "reliable": false,
       "url": "https://www.maff.go.jp/aqs/hou/require/",
-      "detail": "更新を確認できませんでした。公式ページを直接確認してください。"
+      "detail": "CSV 0件をPDF/本文と照合 / 要確認候補 0件 / 未確認 159件",
+      "issues": [],
+      "reviewed_count": 0
     }
   ]
 }
