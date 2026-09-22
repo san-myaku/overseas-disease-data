@@ -21,6 +21,11 @@ https://raw.githubusercontent.com/san-myaku/overseas-disease-data/main/data/hist
 - 各情報源の取得状態と一次情報URL（家畜衛生条件監査を含む）
 - 英国・MAPA・APHISの更新監視、および家畜衛生条件PDF/判定CSV監査の状態・詳細・問題候補
 
+米国APHISについては、`aphis_map_records`に既存マップ用の直近窓データを、
+`aphis_history_records`に取得CSV全行の履歴を分けて保持します。履歴行には州・郡、発生確認日、
+`Control Area Released`の原文・正規化日・状態（`active` / `released` / `not_applicable` / `unknown`）を含め、
+画面ではMAFFの輸入停止・保留・解除イベントと混同しないよう別ソースの時系列として表示します。
+
 画面とメールを揃えるため、`summary.highlights`にメール本文と同じ報告対象イベントの要約、`summary.new_counts`に情報源ごとの新規件数を含みます。`records`は今回の新規報告に属する全明細（メール添付CSV相当）で、必要な場合に画面の折り畳みから確認します。期間内の既報を含む全件スナップショットは公開しません。
 
 `run_status`が`error`の場合は、最新取得に失敗したため前回成功データを保持しています。
