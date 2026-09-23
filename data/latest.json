@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-23T09:40:28+09:00",
-  "last_success_at": "2026-09-23T09:40:28+09:00",
+  "generated_at": "2026-09-23T10:33:10+09:00",
+  "last_success_at": "2026-09-23T10:33:10+09:00",
   "run_status": "degraded",
   "health": {
     "overall": "WARN",
@@ -19,8 +19,8 @@
       "name": "WOAH WAHIS",
       "status": "ok",
       "url": "https://wahis.woah.org/",
-      "attempted_at": "2026-09-23T09:40:28+09:00",
-      "fetched_at": "2026-09-23T09:40:28+09:00",
+      "attempted_at": "2026-09-23T10:33:10+09:00",
+      "fetched_at": "2026-09-23T10:33:10+09:00",
       "record_count": 162,
       "detail": "直近窓 162報告 / 収集OK",
       "error": false
@@ -29,8 +29,8 @@
       "name": "USDA APHIS",
       "status": "ok",
       "url": "https://www.aphis.usda.gov/",
-      "attempted_at": "2026-09-23T09:40:28+09:00",
-      "fetched_at": "2026-09-23T09:39:56+09:00",
+      "attempted_at": "2026-09-23T10:33:10+09:00",
+      "fetched_at": "2026-09-23T10:32:37+09:00",
       "record_count": 9,
       "detail": "自動取得 当日更新（aphis_export.csv）",
       "error": false
@@ -39,8 +39,8 @@
       "name": "Brazil MAPA",
       "status": "ok",
       "url": "https://mapa-indicadores.agricultura.gov.br/",
-      "attempted_at": "2026-09-23T09:40:28+09:00",
-      "fetched_at": "2026-09-23T09:40:13+09:00",
+      "attempted_at": "2026-09-23T10:33:10+09:00",
+      "fetched_at": "2026-09-23T10:32:55+09:00",
       "record_count": 3,
       "detail": "自動取得 当日更新（mapa_export.xlsx）",
       "error": false
@@ -49,8 +49,8 @@
       "name": "MAFF HPAI輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/topix/im/hpai.html",
-      "attempted_at": "2026-09-23T09:40:28+09:00",
-      "fetched_at": "2026-09-23T09:40:28+09:00",
+      "attempted_at": "2026-09-23T10:33:10+09:00",
+      "fetched_at": "2026-09-23T10:33:10+09:00",
       "record_count": 38,
       "detail": "27国 読込",
       "error": false
@@ -59,8 +59,8 @@
       "name": "MAFF 偶蹄類輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/hou/require/sub2.html",
-      "attempted_at": "2026-09-23T09:40:28+09:00",
-      "fetched_at": "2026-09-23T09:40:28+09:00",
+      "attempted_at": "2026-09-23T10:33:10+09:00",
+      "fetched_at": "2026-09-23T10:33:10+09:00",
       "record_count": 22,
       "detail": "33国 読込",
       "error": false
@@ -69,8 +69,8 @@
       "name": "家畜衛生条件監査",
       "status": "warn",
       "url": "https://www.maff.go.jp/aqs/hou/require/",
-      "attempted_at": "2026-09-23T09:40:28+09:00",
-      "fetched_at": "2026-09-23T09:40:28+09:00",
+      "attempted_at": "2026-09-23T10:33:10+09:00",
+      "fetched_at": "2026-09-23T10:33:10+09:00",
       "record_count": null,
       "detail": "CSV 0件をPDF/本文と照合 / 要確認候補 0件 / 未確認 159件",
       "error": true
