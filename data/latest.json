@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-27T08:39:28+09:00",
-  "last_success_at": "2026-09-27T08:39:28+09:00",
+  "generated_at": "2026-09-28T08:50:01+09:00",
+  "last_success_at": "2026-09-28T08:50:01+09:00",
   "run_status": "degraded",
   "health": {
     "overall": "WARN",
@@ -19,8 +19,8 @@
       "name": "WOAH WAHIS",
       "status": "ok",
       "url": "https://wahis.woah.org/",
-      "attempted_at": "2026-09-27T08:39:28+09:00",
-      "fetched_at": "2026-09-27T08:39:28+09:00",
+      "attempted_at": "2026-09-28T08:50:01+09:00",
+      "fetched_at": "2026-09-28T08:50:01+09:00",
       "record_count": 159,
       "detail": "直近窓 159報告 / 収集OK",
       "error": false
@@ -29,8 +29,8 @@
       "name": "USDA APHIS",
       "status": "warn",
       "url": "https://www.aphis.usda.gov/",
-      "attempted_at": "2026-09-27T08:39:28+09:00",
-      "fetched_at": "2026-09-27T08:38:57+09:00",
+      "attempted_at": "2026-09-28T08:50:01+09:00",
+      "fetched_at": "2026-09-28T08:49:10+09:00",
       "record_count": 10,
       "detail": "自動取得だが前回成功が1日前（aphis_export.csv）。今朝の取得が空振りの可能性。",
       "error": true
@@ -39,8 +39,8 @@
       "name": "Brazil MAPA",
       "status": "warn",
       "url": "https://mapa-indicadores.agricultura.gov.br/",
-      "attempted_at": "2026-09-27T08:39:28+09:00",
-      "fetched_at": "2026-09-27T08:39:16+09:00",
+      "attempted_at": "2026-09-28T08:50:01+09:00",
+      "fetched_at": "2026-09-28T08:49:27+09:00",
       "record_count": 3,
       "detail": "自動取得だが前回成功が1日前（mapa_export.xlsx）。今朝の取得が空振りの可能性。 タイムアウト等で本日の自動取得ができていません。ブラジルの新規発生は公式サイトで手動確認を推奨します。",
       "error": true
@@ -49,8 +49,8 @@
       "name": "MAFF HPAI輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/topix/im/hpai.html",
-      "attempted_at": "2026-09-27T08:39:28+09:00",
-      "fetched_at": "2026-09-27T08:39:28+09:00",
+      "attempted_at": "2026-09-28T08:50:01+09:00",
+      "fetched_at": "2026-09-28T08:50:01+09:00",
       "record_count": 38,
       "detail": "27国 読込",
       "error": false
@@ -59,21 +59,21 @@
       "name": "MAFF 偶蹄類輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/hou/require/sub2.html",
-      "attempted_at": "2026-09-27T08:39:28+09:00",
-      "fetched_at": "2026-09-27T08:39:28+09:00",
+      "attempted_at": "2026-09-28T08:50:01+09:00",
+      "fetched_at": "2026-09-28T08:50:01+09:00",
       "record_count": 22,
       "detail": "33国 読込",
       "error": false
     },
     "condition_audit": {
       "name": "家畜衛生条件監査",
-      "status": "ok",
+      "status": "warn",
       "url": "https://www.maff.go.jp/aqs/hou/require/",
-      "attempted_at": "2026-09-27T08:39:28+09:00",
-      "fetched_at": "2026-09-27T08:39:28+09:00",
+      "attempted_at": "2026-09-28T08:50:01+09:00",
+      "fetched_at": "2026-09-28T08:50:01+09:00",
       "record_count": null,
-      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 200件を更新監視",
-      "error": false
+      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 200件を更新監視 / 公式PDF更新 33件。公式PDF: AHRS_USbirds.pdf；公式PDF: chicken-meet-63.pdf；公式PDF: chicken-meet-87.pdf",
+      "error": true
     }
   },
   "summary": {
@@ -242805,21 +242805,27 @@
     },
     {
       "name": "家畜衛生条件PDF/判定CSV",
-      "status": "公式ページ監視",
-      "changed": false,
+      "status": "公式情報更新あり",
+      "changed": true,
       "ok": true,
       "reliable": true,
       "url": "https://www.maff.go.jp/aqs/hou/require/",
-      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 200件を更新監視",
-      "issues": [],
+      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 200件を更新監視 / 公式PDF更新 33件。公式PDF: AHRS_USbirds.pdf；公式PDF: chicken-meet-63.pdf；公式PDF: chicken-meet-87.pdf",
+      "issues": [
+        "公式PDF: AHRS_USbirds.pdf",
+        "公式PDF: chicken-meet-63.pdf",
+        "公式PDF: chicken-meet-87.pdf",
+        "公式PDF: chicken-meet-96.pdf",
+        "公式PDF: sub1-1.pdf"
+      ],
       "reviewed_count": 0
     }
   ],
-  "report_date": "2026-09-26",
+  "report_date": "2026-09-27",
   "daily_report": {
-    "report_date": "2026-09-26",
-    "first_generated_at": "2026-09-27T08:39:28+09:00",
-    "updated_at": "2026-09-27T08:39:28+09:00",
+    "report_date": "2026-09-27",
+    "first_generated_at": "2026-09-28T08:50:01+09:00",
+    "updated_at": "2026-09-28T08:50:01+09:00",
     "run_count": 1,
     "summary": {
       "total_rows": 0,
