@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T08:18:00+09:00",
-  "last_success_at": "2026-10-25T08:18:00+09:00",
+  "generated_at": "2026-10-26T08:18:34+09:00",
+  "last_success_at": "2026-10-26T08:18:34+09:00",
   "run_status": "degraded",
   "health": {
     "overall": "WARN",
@@ -19,8 +19,8 @@
       "name": "WOAH WAHIS",
       "status": "ok",
       "url": "https://wahis.woah.org/",
-      "attempted_at": "2026-10-25T08:18:00+09:00",
-      "fetched_at": "2026-10-25T08:18:00+09:00",
+      "attempted_at": "2026-10-26T08:18:34+09:00",
+      "fetched_at": "2026-10-26T08:18:34+09:00",
       "record_count": 166,
       "detail": "直近窓 166報告 / 収集OK",
       "error": false
@@ -29,8 +29,8 @@
       "name": "USDA APHIS",
       "status": "warn",
       "url": "https://www.aphis.usda.gov/",
-      "attempted_at": "2026-10-25T08:18:00+09:00",
-      "fetched_at": "2026-10-25T08:17:31+09:00",
+      "attempted_at": "2026-10-26T08:18:34+09:00",
+      "fetched_at": "2026-10-26T08:17:50+09:00",
       "record_count": 12,
       "detail": "自動取得だが前回成功が1日前（aphis_export.csv）。今朝の取得が空振りの可能性。",
       "error": true
@@ -39,8 +39,8 @@
       "name": "Brazil MAPA",
       "status": "warn",
       "url": "https://mapa-indicadores.agricultura.gov.br/",
-      "attempted_at": "2026-10-25T08:18:00+09:00",
-      "fetched_at": "2026-10-25T08:17:47+09:00",
+      "attempted_at": "2026-10-26T08:18:34+09:00",
+      "fetched_at": "2026-10-26T08:18:06+09:00",
       "record_count": 4,
       "detail": "自動取得だが前回成功が1日前（mapa_export.xlsx）。今朝の取得が空振りの可能性。 タイムアウト等で本日の自動取得ができていません。ブラジルの新規発生は公式サイトで手動確認を推奨します。",
       "error": true
@@ -49,8 +49,8 @@
       "name": "MAFF HPAI輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/topix/im/hpai.html",
-      "attempted_at": "2026-10-25T08:18:00+09:00",
-      "fetched_at": "2026-10-25T08:18:00+09:00",
+      "attempted_at": "2026-10-26T08:18:34+09:00",
+      "fetched_at": "2026-10-26T08:18:34+09:00",
       "record_count": 38,
       "detail": "27国 読込",
       "error": false
@@ -59,89 +59,36 @@
       "name": "MAFF 偶蹄類輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/hou/require/sub2.html",
-      "attempted_at": "2026-10-25T08:18:00+09:00",
-      "fetched_at": "2026-10-25T08:18:00+09:00",
+      "attempted_at": "2026-10-26T08:18:34+09:00",
+      "fetched_at": "2026-10-26T08:18:34+09:00",
       "record_count": 22,
       "detail": "33国 読込",
       "error": false
     },
     "condition_audit": {
       "name": "家畜衛生条件監査",
-      "status": "ok",
+      "status": "warn",
       "url": "https://www.maff.go.jp/aqs/hou/require/",
-      "attempted_at": "2026-10-25T08:18:00+09:00",
-      "fetched_at": "2026-10-25T08:18:00+09:00",
+      "attempted_at": "2026-10-26T08:18:34+09:00",
+      "fetched_at": "2026-10-26T08:18:34+09:00",
       "record_count": null,
-      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 232件を更新監視",
-      "error": false
+      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 232件を更新監視 / 公式PDF更新 97件。公式PDF: OfficialListingofEligibleSuppliersforJapan.pdf；公式PDF: chicken-meet-23.pdf；公式PDF: chicken-meet-24.pdf",
+      "error": true
     }
   },
   "summary": {
-    "total_rows": 1,
-    "total_events": 1,
-    "report_events": 1,
-    "action_counts": {
-      "参考（発生あり・停止判定対象外）": 1
-    },
-    "highlights": [
-      {
-        "country": "Brazil",
-        "country_jp": "ブラジル",
-        "disease": "ニューカッスル病",
-        "commodity": "家きん肉等・生体家きん",
-        "agreement": "条件あり（家きん肉等・生体家きん）",
-        "action": "参考（発生あり・停止判定対象外）",
-        "severity": "中",
-        "category": "MAPA",
-        "suspension": "",
-        "new_susp": "",
-        "hint": "",
-        "cond_diseases": "HPAI;LPAI;Newcastle;Fowl cholera",
-        "cond_basis": "state;zone(km)",
-        "outbreaks": 1,
-        "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SRN_v2_EN/SRN_v2_EN.html",
-        "source": "MAPA"
-      }
-    ],
+    "total_rows": 0,
+    "total_events": 0,
+    "report_events": 0,
+    "action_counts": {},
+    "highlights": [],
     "new_counts": {
       "WAHIS": 0,
       "APHIS": 0,
-      "MAPA": 1
+      "MAPA": 0
     }
   },
-  "records": [
-    {
-      "source": "MAPA",
-      "country": "Brazil",
-      "country_jp": "ブラジル",
-      "report_number": "42044000021",
-      "disease_raw": "Newcastle disease virus (Inf. with)",
-      "genotype": "",
-      "disease": "ニューカッスル病",
-      "reason": "Poultry / Aves domésticas (peru) / 状況:ongoing",
-      "start_date": "2026/10/24",
-      "end_date": "",
-      "report_date": "2026/10/24",
-      "region1": "SC",
-      "region2": "Coronel Freitas",
-      "region3": "-",
-      "action": "参考（発生あり・停止判定対象外）",
-      "report_target": "○",
-      "new_suspension": "",
-      "suspension_status": "",
-      "commodity": "家きん肉等・生体家きん",
-      "agreement": "条件あり（家きん肉等・生体家きん）",
-      "importance": "中",
-      "category": "MAPA",
-      "is_wild": "",
-      "event_status": "",
-      "category_raw": "MAPA",
-      "maff_region": "",
-      "condition_diseases": "HPAI;LPAI;Newcastle;Fowl cholera",
-      "condition_basis": "state;zone(km)",
-      "source_url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SRN_v2_EN/SRN_v2_EN.html"
-    }
-  ],
+  "records": [],
   "aphis_map_records": [
     {
       "source": "APHIS",
@@ -247911,8 +247858,8 @@
     },
     {
       "name": "MAPA (ブラジル)",
-      "status": "更新あり",
-      "changed": true,
+      "status": "変更なし",
+      "changed": false,
       "ok": true,
       "reliable": false,
       "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SRN_v2_EN/SRN_v2_EN.html",
@@ -247933,87 +247880,40 @@
     },
     {
       "name": "家畜衛生条件PDF/判定CSV",
-      "status": "公式ページ監視",
-      "changed": false,
+      "status": "公式情報更新あり",
+      "changed": true,
       "ok": true,
       "reliable": true,
       "url": "https://www.maff.go.jp/aqs/hou/require/",
-      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 232件を更新監視",
-      "issues": [],
+      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 232件を更新監視 / 公式PDF更新 97件。公式PDF: OfficialListingofEligibleSuppliersforJapan.pdf；公式PDF: chicken-meet-23.pdf；公式PDF: chicken-meet-24.pdf",
+      "issues": [
+        "公式PDF: OfficialListingofEligibleSuppliersforJapan.pdf",
+        "公式PDF: chicken-meet-23.pdf",
+        "公式PDF: chicken-meet-24.pdf",
+        "公式PDF: NL-kakin.pdf",
+        "公式PDF: chicken-meet-36.pdf"
+      ],
       "reviewed_count": 0
     }
   ],
-  "report_date": "2026-10-24",
+  "report_date": "2026-10-25",
   "daily_report": {
-    "report_date": "2026-10-24",
-    "first_generated_at": "2026-10-25T08:18:00+09:00",
-    "updated_at": "2026-10-25T08:18:00+09:00",
+    "report_date": "2026-10-25",
+    "first_generated_at": "2026-10-26T08:18:34+09:00",
+    "updated_at": "2026-10-26T08:18:34+09:00",
     "run_count": 1,
     "summary": {
-      "total_rows": 1,
-      "total_events": 1,
-      "report_events": 1,
-      "action_counts": {
-        "参考（発生あり・停止判定対象外）": 1
-      },
-      "highlights": [
-        {
-          "country": "Brazil",
-          "country_jp": "ブラジル",
-          "disease": "ニューカッスル病",
-          "commodity": "家きん肉等・生体家きん",
-          "agreement": "条件あり（家きん肉等・生体家きん）",
-          "action": "参考（発生あり・停止判定対象外）",
-          "severity": "中",
-          "category": "MAPA",
-          "suspension": "",
-          "new_susp": "",
-          "hint": "",
-          "cond_diseases": "HPAI;LPAI;Newcastle;Fowl cholera",
-          "cond_basis": "state;zone(km)",
-          "outbreaks": 1,
-          "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SRN_v2_EN/SRN_v2_EN.html",
-          "source": "MAPA"
-        }
-      ],
+      "total_rows": 0,
+      "total_events": 0,
+      "report_events": 0,
+      "action_counts": {},
+      "highlights": [],
       "new_counts": {
         "WAHIS": 0,
         "APHIS": 0,
-        "MAPA": 1
+        "MAPA": 0
       }
     },
-    "records": [
-      {
-        "source": "MAPA",
-        "country": "Brazil",
-        "country_jp": "ブラジル",
-        "report_number": "42044000021",
-        "disease_raw": "Newcastle disease virus (Inf. with)",
-        "genotype": "",
-        "disease": "ニューカッスル病",
-        "reason": "Poultry / Aves domésticas (peru) / 状況:ongoing",
-        "start_date": "2026/10/24",
-        "end_date": "",
-        "report_date": "2026/10/24",
-        "region1": "SC",
-        "region2": "Coronel Freitas",
-        "region3": "-",
-        "action": "参考（発生あり・停止判定対象外）",
-        "report_target": "○",
-        "new_suspension": "",
-        "suspension_status": "",
-        "commodity": "家きん肉等・生体家きん",
-        "agreement": "条件あり（家きん肉等・生体家きん）",
-        "importance": "中",
-        "category": "MAPA",
-        "is_wild": "",
-        "event_status": "",
-        "category_raw": "MAPA",
-        "maff_region": "",
-        "condition_diseases": "HPAI;LPAI;Newcastle;Fowl cholera",
-        "condition_basis": "state;zone(km)",
-        "source_url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SRN_v2_EN/SRN_v2_EN.html"
-      }
-    ]
+    "records": []
   }
 }
