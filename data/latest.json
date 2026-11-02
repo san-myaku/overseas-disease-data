@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-01T09:09:45+09:00",
-  "last_success_at": "2026-11-01T09:09:45+09:00",
-  "run_status": "ok",
+  "generated_at": "2026-11-02T09:47:23+09:00",
+  "last_success_at": "2026-11-02T09:47:23+09:00",
+  "run_status": "degraded",
   "health": {
-    "overall": "OK",
-    "message": "全情報源 正常"
+    "overall": "WARN",
+    "message": "一部の情報源に注意が必要です"
   },
   "validation": {
     "maff_hpai": {
@@ -19,8 +19,8 @@
       "name": "WOAH WAHIS",
       "status": "ok",
       "url": "https://wahis.woah.org/",
-      "attempted_at": "2026-11-01T09:09:45+09:00",
-      "fetched_at": "2026-11-01T09:09:45+09:00",
+      "attempted_at": "2026-11-02T09:47:23+09:00",
+      "fetched_at": "2026-11-02T09:47:23+09:00",
       "record_count": 170,
       "detail": "直近窓 170報告 / 収集OK",
       "error": false
@@ -29,8 +29,8 @@
       "name": "USDA APHIS",
       "status": "ok",
       "url": "https://www.aphis.usda.gov/",
-      "attempted_at": "2026-11-01T09:09:45+09:00",
-      "fetched_at": "2026-11-01T09:09:15+09:00",
+      "attempted_at": "2026-11-02T09:47:23+09:00",
+      "fetched_at": "2026-11-02T09:46:33+09:00",
       "record_count": 18,
       "detail": "自動取得 当日更新（aphis_export.csv）",
       "error": false
@@ -39,8 +39,8 @@
       "name": "Brazil MAPA",
       "status": "ok",
       "url": "https://mapa-indicadores.agricultura.gov.br/",
-      "attempted_at": "2026-11-01T09:09:45+09:00",
-      "fetched_at": "2026-11-01T09:09:32+09:00",
+      "attempted_at": "2026-11-02T09:47:23+09:00",
+      "fetched_at": "2026-11-02T09:46:50+09:00",
       "record_count": 5,
       "detail": "自動取得 当日更新（mapa_export.xlsx）",
       "error": false
@@ -49,8 +49,8 @@
       "name": "MAFF HPAI輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/topix/im/hpai.html",
-      "attempted_at": "2026-11-01T09:09:45+09:00",
-      "fetched_at": "2026-11-01T09:09:45+09:00",
+      "attempted_at": "2026-11-02T09:47:23+09:00",
+      "fetched_at": "2026-11-02T09:47:23+09:00",
       "record_count": 38,
       "detail": "27国 読込",
       "error": false
@@ -59,21 +59,21 @@
       "name": "MAFF 偶蹄類輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/hou/require/sub2.html",
-      "attempted_at": "2026-11-01T09:09:45+09:00",
-      "fetched_at": "2026-11-01T09:09:45+09:00",
+      "attempted_at": "2026-11-02T09:47:23+09:00",
+      "fetched_at": "2026-11-02T09:47:23+09:00",
       "record_count": 22,
       "detail": "33国 読込",
       "error": false
     },
     "condition_audit": {
       "name": "家畜衛生条件監査",
-      "status": "ok",
+      "status": "warn",
       "url": "https://www.maff.go.jp/aqs/hou/require/",
-      "attempted_at": "2026-11-01T09:09:45+09:00",
-      "fetched_at": "2026-11-01T09:09:45+09:00",
+      "attempted_at": "2026-11-02T09:47:23+09:00",
+      "fetched_at": "2026-11-02T09:47:23+09:00",
       "record_count": null,
-      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 233件を更新監視",
-      "error": false
+      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 233件を更新監視 / 公式PDF更新 29件。公式PDF: chicken-meet-40.pdf；公式PDF: chicken-meet-52.pdf；公式PDF: chicken-meet-71.pdf",
+      "error": true
     }
   },
   "summary": {
@@ -248958,21 +248958,27 @@
     },
     {
       "name": "家畜衛生条件PDF/判定CSV",
-      "status": "公式ページ監視",
-      "changed": false,
+      "status": "公式情報更新あり",
+      "changed": true,
       "ok": true,
       "reliable": true,
       "url": "https://www.maff.go.jp/aqs/hou/require/",
-      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 233件を更新監視",
-      "issues": [],
+      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 233件を更新監視 / 公式PDF更新 29件。公式PDF: chicken-meet-40.pdf；公式PDF: chicken-meet-52.pdf；公式PDF: chicken-meet-71.pdf",
+      "issues": [
+        "公式PDF: chicken-meet-40.pdf",
+        "公式PDF: chicken-meet-52.pdf",
+        "公式PDF: chicken-meet-71.pdf",
+        "公式PDF: sub2-42.pdf",
+        "公式PDF: sub2-46.pdf"
+      ],
       "reviewed_count": 0
     }
   ],
-  "report_date": "2026-10-31",
+  "report_date": "2026-11-01",
   "daily_report": {
-    "report_date": "2026-10-31",
-    "first_generated_at": "2026-11-01T09:09:45+09:00",
-    "updated_at": "2026-11-01T09:09:45+09:00",
+    "report_date": "2026-11-01",
+    "first_generated_at": "2026-11-02T09:47:23+09:00",
+    "updated_at": "2026-11-02T09:47:23+09:00",
     "run_count": 1,
     "summary": {
       "total_rows": 0,
