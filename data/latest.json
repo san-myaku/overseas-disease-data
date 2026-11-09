@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-08T09:39:25+09:00",
-  "last_success_at": "2026-11-08T09:39:25+09:00",
-  "run_status": "ok",
+  "generated_at": "2026-11-09T09:56:56+09:00",
+  "last_success_at": "2026-11-09T09:56:56+09:00",
+  "run_status": "degraded",
   "health": {
-    "overall": "OK",
-    "message": "全情報源 正常"
+    "overall": "WARN",
+    "message": "一部の情報源に注意が必要です"
   },
   "validation": {
     "maff_hpai": {
@@ -19,8 +19,8 @@
       "name": "WOAH WAHIS",
       "status": "ok",
       "url": "https://wahis.woah.org/",
-      "attempted_at": "2026-11-08T09:39:25+09:00",
-      "fetched_at": "2026-11-08T09:39:25+09:00",
+      "attempted_at": "2026-11-09T09:56:56+09:00",
+      "fetched_at": "2026-11-09T09:56:56+09:00",
       "record_count": 179,
       "detail": "直近窓 179報告 / 収集OK",
       "error": false
@@ -29,8 +29,8 @@
       "name": "USDA APHIS",
       "status": "ok",
       "url": "https://www.aphis.usda.gov/",
-      "attempted_at": "2026-11-08T09:39:25+09:00",
-      "fetched_at": "2026-11-08T09:38:54+09:00",
+      "attempted_at": "2026-11-09T09:56:56+09:00",
+      "fetched_at": "2026-11-09T09:56:07+09:00",
       "record_count": 14,
       "detail": "自動取得 当日更新（aphis_export.csv）",
       "error": false
@@ -39,9 +39,9 @@
       "name": "Brazil MAPA",
       "status": "ok",
       "url": "https://mapa-indicadores.agricultura.gov.br/",
-      "attempted_at": "2026-11-08T09:39:25+09:00",
-      "fetched_at": "2026-11-08T09:39:10+09:00",
-      "record_count": 5,
+      "attempted_at": "2026-11-09T09:56:56+09:00",
+      "fetched_at": "2026-11-09T09:56:22+09:00",
+      "record_count": 6,
       "detail": "自動取得 当日更新（mapa_export.xlsx）",
       "error": false
     },
@@ -49,8 +49,8 @@
       "name": "MAFF HPAI輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/topix/im/hpai.html",
-      "attempted_at": "2026-11-08T09:39:25+09:00",
-      "fetched_at": "2026-11-08T09:39:25+09:00",
+      "attempted_at": "2026-11-09T09:56:56+09:00",
+      "fetched_at": "2026-11-09T09:56:56+09:00",
       "record_count": 38,
       "detail": "27国 読込",
       "error": false
@@ -59,36 +59,70 @@
       "name": "MAFF 偶蹄類輸入停止",
       "status": "ok",
       "url": "https://www.maff.go.jp/aqs/hou/require/sub2.html",
-      "attempted_at": "2026-11-08T09:39:25+09:00",
-      "fetched_at": "2026-11-08T09:39:25+09:00",
+      "attempted_at": "2026-11-09T09:56:56+09:00",
+      "fetched_at": "2026-11-09T09:56:56+09:00",
       "record_count": 22,
       "detail": "33国 読込",
       "error": false
     },
     "condition_audit": {
       "name": "家畜衛生条件監査",
-      "status": "ok",
+      "status": "warn",
       "url": "https://www.maff.go.jp/aqs/hou/require/",
-      "attempted_at": "2026-11-08T09:39:25+09:00",
-      "fetched_at": "2026-11-08T09:39:25+09:00",
+      "attempted_at": "2026-11-09T09:56:56+09:00",
+      "fetched_at": "2026-11-09T09:56:56+09:00",
       "record_count": null,
-      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 233件を更新監視",
-      "error": false
+      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 233件を更新監視 / 公式PDF更新 141件。公式PDF: chicken-meet-25.pdf；公式PDF: chicken-meet-24.pdf；公式PDF: chicken-meet-23.pdf",
+      "error": true
     }
   },
   "summary": {
-    "total_rows": 0,
-    "total_events": 0,
+    "total_rows": 1,
+    "total_events": 1,
     "report_events": 0,
-    "action_counts": {},
+    "action_counts": {
+      "対象外": 1
+    },
     "highlights": [],
     "new_counts": {
       "WAHIS": 0,
       "APHIS": 0,
-      "MAPA": 0
+      "MAPA": 1
     }
   },
-  "records": [],
+  "records": [
+    {
+      "source": "MAPA",
+      "country": "Brazil",
+      "country_jp": "ブラジル",
+      "report_number": "42114540020",
+      "disease_raw": "-",
+      "genotype": "",
+      "disease": "（対象疾病外）",
+      "reason": "Poultry / Aves domésticas (peru) / 状況:-",
+      "start_date": "2026/11/08",
+      "end_date": "",
+      "report_date": "2026/11/08",
+      "region1": "SC",
+      "region2": "Nova Itaberaba",
+      "region3": "-",
+      "action": "対象外",
+      "report_target": "",
+      "new_suspension": "",
+      "suspension_status": "",
+      "commodity": "（なし）",
+      "agreement": "条件なし",
+      "importance": "-",
+      "category": "MAPA",
+      "is_wild": "",
+      "event_status": "",
+      "category_raw": "MAPA",
+      "maff_region": "",
+      "condition_diseases": "",
+      "condition_basis": "",
+      "source_url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SRN_v2_EN/SRN_v2_EN.html"
+    }
+  ],
   "aphis_map_records": [
     {
       "source": "APHIS",
@@ -249791,12 +249825,12 @@
     },
     {
       "name": "MAPA (ブラジル)",
-      "status": "変更なし",
-      "changed": false,
+      "status": "更新あり",
+      "changed": true,
       "ok": true,
       "reliable": false,
       "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SRN_v2_EN/SRN_v2_EN.html",
-      "detail": "225件 / 最新確定日 2026/11/03（mapa_export.xlsx）",
+      "detail": "226件 / 最新確定日 2026/11/08（mapa_export.xlsx）",
       "issues": [],
       "reviewed_count": null
     },
@@ -249813,34 +249847,74 @@
     },
     {
       "name": "家畜衛生条件PDF/判定CSV",
-      "status": "公式ページ監視",
-      "changed": false,
+      "status": "公式情報更新あり",
+      "changed": true,
       "ok": true,
       "reliable": true,
       "url": "https://www.maff.go.jp/aqs/hou/require/",
-      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 233件を更新監視",
-      "issues": [],
+      "detail": "GitHub運用版ではPCローカルPDF本文と条件CSVの照合は対象外 / 公式条件ページ 7/7件取得 / PDFリンク 233件を更新監視 / 公式PDF更新 141件。公式PDF: chicken-meet-25.pdf；公式PDF: chicken-meet-24.pdf；公式PDF: chicken-meet-23.pdf",
+      "issues": [
+        "公式PDF: chicken-meet-25.pdf",
+        "公式PDF: chicken-meet-24.pdf",
+        "公式PDF: chicken-meet-23.pdf",
+        "公式PDF: NL-kakin.pdf",
+        "公式PDF: chicken-meet-3.pdf"
+      ],
       "reviewed_count": 0
     }
   ],
-  "report_date": "2026-11-07",
+  "report_date": "2026-11-08",
   "daily_report": {
-    "report_date": "2026-11-07",
-    "first_generated_at": "2026-11-08T09:39:25+09:00",
-    "updated_at": "2026-11-08T09:39:25+09:00",
+    "report_date": "2026-11-08",
+    "first_generated_at": "2026-11-09T09:56:56+09:00",
+    "updated_at": "2026-11-09T09:56:56+09:00",
     "run_count": 1,
     "summary": {
-      "total_rows": 0,
-      "total_events": 0,
+      "total_rows": 1,
+      "total_events": 1,
       "report_events": 0,
-      "action_counts": {},
+      "action_counts": {
+        "対象外": 1
+      },
       "highlights": [],
       "new_counts": {
         "WAHIS": 0,
         "APHIS": 0,
-        "MAPA": 0
+        "MAPA": 1
       }
     },
-    "records": []
+    "records": [
+      {
+        "source": "MAPA",
+        "country": "Brazil",
+        "country_jp": "ブラジル",
+        "report_number": "42114540020",
+        "disease_raw": "-",
+        "genotype": "",
+        "disease": "（対象疾病外）",
+        "reason": "Poultry / Aves domésticas (peru) / 状況:-",
+        "start_date": "2026/11/08",
+        "end_date": "",
+        "report_date": "2026/11/08",
+        "region1": "SC",
+        "region2": "Nova Itaberaba",
+        "region3": "-",
+        "action": "対象外",
+        "report_target": "",
+        "new_suspension": "",
+        "suspension_status": "",
+        "commodity": "（なし）",
+        "agreement": "条件なし",
+        "importance": "-",
+        "category": "MAPA",
+        "is_wild": "",
+        "event_status": "",
+        "category_raw": "MAPA",
+        "maff_region": "",
+        "condition_diseases": "",
+        "condition_basis": "",
+        "source_url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SRN_v2_EN/SRN_v2_EN.html"
+      }
+    ]
   }
 }
