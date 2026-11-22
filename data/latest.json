@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-21T08:25:59+09:00",
+  "generated_at": "2026-11-22T10:21:14+09:00",
   "last_success_at": "2026-11-21T08:25:59+09:00",
-  "run_status": "degraded",
+  "run_status": "error",
   "health": {
-    "overall": "WARN",
-    "message": "一部の情報源に注意が必要です"
+    "overall": "CRIT",
+    "message": "収集処理に失敗しました。前回成功データを表示しています。"
   },
   "validation": {
     "maff_hpai": {
@@ -296672,5 +296672,6 @@
         "source_url": "https://inspection.canada.ca/en/animal-health/terrestrial-animals/diseases/reportable/avian-influenza/latest-bird-flu-situation/investigations-and-orders#dataset-filter"
       }
     ]
-  }
+  },
+  "error": "収集処理に失敗しました。前回成功データを表示しています。"
 }
