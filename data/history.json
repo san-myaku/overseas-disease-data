@@ -1,7 +1,61 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27T12:43:37+09:00",
+  "updated_at": "2026-11-28T12:29:14+09:00",
   "runs": [
+    {
+      "run_id": "46102255629",
+      "attempted_at": "2026-11-28T12:29:14+09:00",
+      "generated_at": "2026-11-28T12:29:13+09:00",
+      "last_success_at": "2026-11-28T12:29:13+09:00",
+      "event": "schedule",
+      "collector_outcome": "success",
+      "run_status": "degraded",
+      "health_overall": "WARN",
+      "summary": {
+        "total_rows": 507,
+        "total_events": 70,
+        "report_events": 32,
+        "new_counts": {
+          "WAHIS": 68,
+          "APHIS": 2,
+          "CFIA": 0
+        }
+      },
+      "sources": {
+        "wahis": {
+          "status": "ok",
+          "record_count": 186
+        },
+        "aphis": {
+          "status": "ok",
+          "record_count": 16
+        },
+        "mapa": {
+          "status": "warn",
+          "record_count": 0
+        },
+        "cfia": {
+          "status": "ok",
+          "record_count": 708
+        },
+        "maff_hpai": {
+          "status": "ok",
+          "record_count": 38
+        },
+        "maff_cloven": {
+          "status": "ok",
+          "record_count": 22
+        },
+        "condition_audit": {
+          "status": "ok",
+          "record_count": null
+        },
+        "uk": {
+          "status": "ok",
+          "record_count": null
+        }
+      }
+    },
     {
       "run_id": "45935327255",
       "attempted_at": "2026-11-27T12:43:37+09:00",
@@ -4134,48 +4188,6 @@
         "wahis": {
           "status": "ok",
           "record_count": 32
-        },
-        "aphis": {
-          "status": "warn",
-          "record_count": 7
-        },
-        "mapa": {
-          "status": "warn",
-          "record_count": 3
-        },
-        "maff_hpai": {
-          "status": "ok",
-          "record_count": 28
-        },
-        "maff_cloven": {
-          "status": "ok",
-          "record_count": 22
-        }
-      }
-    },
-    {
-      "run_id": "34290513282",
-      "attempted_at": "2026-09-09T08:41:37+09:00",
-      "generated_at": "2026-09-09T08:41:37+09:00",
-      "last_success_at": "2026-09-09T08:41:37+09:00",
-      "event": "schedule",
-      "collector_outcome": "success",
-      "run_status": "degraded",
-      "health_overall": "WARN",
-      "summary": {
-        "total_rows": 1385,
-        "total_events": 20,
-        "report_events": 7,
-        "new_counts": {
-          "WAHIS": 20,
-          "APHIS": 0,
-          "MAPA": 0
-        }
-      },
-      "sources": {
-        "wahis": {
-          "status": "ok",
-          "record_count": 1385
         },
         "aphis": {
           "status": "warn",
